@@ -17,6 +17,7 @@
             p El primer paso consiste en establecer las líneas de construcción que definirán la estructura básica del producto, determinando sus dimensiones en términos de largo, alto y ancho. Estas líneas sirven como guía para la distribución del diseño y pueden ser eliminadas o ajustadas una vez finalizado el boceto.
           
           .col-md-5
+            .py-2
             .titulo-sexto.color-acento-contenido
               h5 Figura 7. 
               span Encajar el dibujo con líneas de construcción
@@ -30,6 +31,7 @@
             p A partir de las líneas de construcción, se establecen las proporciones de las diferentes partes del producto, asegurando una distribución armónica y equilibrada. Este proceso permite visualizar la relación entre los distintos elementos del diseño antes de avanzar en su desarrollo tridimensional.
         
           .col-md-5
+            .py-2
             .titulo-sexto.color-acento-contenido
               h5 Figura 8. 
               span Determinar proporciones
@@ -44,6 +46,7 @@
             p El boceto es la representación gráfica de la idea conceptual del producto y no requiere conocimientos avanzados en dibujo técnico, ya que su propósito es servir como una herramienta de exploración creativa y de comunicación en el desarrollo del diseño.
         
           .col-md-5
+            .py-2
             .titulo-sexto.color-acento-contenido
               h5 Figura 9. 
               span Bocetos en marroquinería
