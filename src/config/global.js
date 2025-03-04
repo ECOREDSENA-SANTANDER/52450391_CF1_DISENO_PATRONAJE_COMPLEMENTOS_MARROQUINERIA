@@ -125,10 +125,25 @@ export default {
   },
   complementario: [
     {
-      tema: 'Tema 1',
-      referencia: 'Texto',
-      tipo: 'Sitio web',
-      link: 'Link',
+      tema: 'Inspiración para el diseño',
+      referencia:
+        'Emely Rivera. (2020, 25 mayo). Sistema isométrico [Vídeo]. YouTube',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=gK4CC6D9I4c',
+    },
+    {
+      tema: 'Apropiación de conceptos básicos de marroquinería.',
+      referencia:
+        'PALE INGENIERIA DEL CUERO. (2020, 3 abril). Dibujo isométrico Bolso pinza 90° [Vídeo]. YouTube',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=uAz2wPNICBI',
+    },
+    {
+      tema: 'Desarrollo y evaluación del producto o prototipo',
+      referencia:
+        'Emely Rivera. (2021, 2 junio). Sesión 4 El bolso y sus partes -formas de bolsos tipo pinza. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=6gcoD2MWe3Y',
     },
   ],
   glosario: [
@@ -139,7 +154,13 @@ export default {
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'José María Ibáñez Gimeno. (2000). Gestión de diseño en la empresa, Editorial McGraw Hill.',
+      link: '',
+    },
+    {
+      referencia:
+        'Cámara de Comercio de Bogotá y Cundinamarca. (2006). Balance tecnológico cadena productiva marroquinera en Bogotá.',
       link: '',
     },
   ],
@@ -148,14 +169,14 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre completo',
+          nombre: 'Milady Tatiana Villamil Castellanos',
           cargo: 'Responsable del ecosistema',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
+          nombre: 'Claudia Johanna Gómez Pérez',
           cargo: 'Responsable de línea de producción',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -163,9 +184,15 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Nohora Amparo Nieto Cárdenas',
+          cargo: 'NO TIENE CARGO EN EL DI',
+          centro:
+            'Centro de Manufactura en Textil y Cuero - Regional Distrito Capital ',
+        },
+        {
+          nombre: 'Sandra Paola Morales Páez',
+          cargo: 'Evaluadora instruccional',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -173,19 +200,19 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Edison Eduardo Mantilla Cuadros',
+          cargo: 'Diseñadora de contenidos digitales',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Leonardo Castellanos Rodríguez',
+          cargo: 'Desarrollador <em>full stack</em>',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Animador y productor audiovisual',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'María Alejandra Vera Briceño',
+          cargo: 'Animadora y productor multimedia',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -193,14 +220,14 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Erika Daniela Manrique Rueda',
+          cargo: 'Validadora de recursos educativos digitales',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Erika Fernanda Mejía Pinzón',
+          cargo: 'Evaluadora para contenidos inclusivos y accesibles',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
