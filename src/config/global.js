@@ -148,8 +148,79 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Cremallera',
+      significado:
+        'Mecanismo de cierre compuesto por dos filas de dientes que se enganchan mediante un deslizador, usado en productos de marroquinería.',
+    },
+    {
+      termino: 'Curtido',
+      significado:
+        ' Proceso químico o vegetal que estabiliza la piel animal para su uso en la fabricación de productos de cuero.',
+    },
+    {
+      termino: 'Diseño',
+      significado:
+        'Herramienta estratégica que permite la creación y desarrollo de productos funcionales y estéticos en la marroquinería.',
+    },
+    {
+      termino: 'Encaje',
+      significado:
+        'Técnica utilizada en el trazado de modelos para definir la estructura y proporciones de un producto.',
+    },
+    {
+      termino: 'Forro',
+      significado:
+        'Material interno empleado en productos de marroquinería para mejorar la resistencia, durabilidad y estética.',
+    },
+    {
+      termino: 'Guata',
+      significado:
+        'Material acolchado usado en marroquinería para proporcionar volumen, suavidad y aislamiento térmico.',
+    },
+    {
+      termino: 'Herrajes',
+      significado:
+        'Accesorios metálicos como hebillas, remaches y mosquetones utilizados para dar funcionalidad y estética a los productos.',
+    },
+    {
+      termino: 'Insumo',
+      significado:
+        'Material o componente procesado que interviene en la fabricación de productos, como hilos, adhesivos y forros.',
+    },
+    {
+      termino: 'Marroquinería',
+      significado:
+        'Arte y técnica de transformar el cuero en productos funcionales y estéticos como bolsos, billeteras y correas.',
+    },
+    {
+      termino: '<i>Mood board</i>',
+      significado:
+        ' Herramienta visual que organiza imágenes, colores y texturas para representar conceptualmente una colección de diseño.',
+    },
+    {
+      termino: 'Pigmento',
+      significado:
+        ' Sustancia que aporta color a los materiales sin penetrar en su superficie, disponible en diferentes acabados.',
+    },
+    {
+      termino: 'Reata',
+      significado:
+        'Tejido resistente utilizado en la confección de correas, cinturones y asas para bolsos y maletines.',
+    },
+    {
+      termino: 'Salpa',
+      significado:
+        ' Material elaborado con fibras de cuero recuperado, utilizado para reforzar y dar estructura a productos de marroquinería.',
+    },
+    {
+      termino: 'Tafeta',
+      significado:
+        'Tejido sintético o de acetato utilizado en forros internos de marroquinería por su suavidad y resistencia.',
+    },
+    {
+      termino: 'Tendencia',
+      significado:
+        ' Influencia derivada de cambios en la moda, el arte o el estilo de vida, que guía el desarrollo de nuevas colecciones.',
     },
   ],
   referencias: [
