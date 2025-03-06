@@ -91,23 +91,113 @@
     
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-down")
       .col-lg-10
-        ImagenInfografica.color-secundario.mb-5
+        ImagenInfografica.color-acento-botones.mb-5
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/temas/Tema3/infografia.svg', alt='Texto que describa la imagen')
       
 
-          .tarjeta.color-acento-botones.p-3(x="20%" y="20%" numero="1")
-            .h5.mb-2 titulo
-            p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
+          .tarjeta.fondotarjeta.p-4(x="36%" y="12%" numero="+")
+            .py-2
+            .row.align-items-center
+              .col-lg-12
+                h5 Bolso tote
+              .col-lg-12
+                img(src='@/assets/curso/temas/Tema3/tote.png', alt='Texto que describa la imagen')
+          
+          .tarjeta.fondotarjeta.p-4(x="28%" y="31%" numero="+")
+            .py-2
+            .row.align-items-center
+              .col-lg-12
+                h5 Riñonera
+              .col-lg-12
+                img(src='@/assets/curso/temas/Tema3/riñonera.png', alt='Texto que describa la imagen')
+          
+          .tarjeta.fondotarjeta.p-4(x="27%" y="50%" numero="+")
+            .py-2
+            .row.align-items-center
+              .col-lg-12
+                h5 Bandolera
+              .col-lg-12
+                img(src='@/assets/curso/temas/Tema3/bandolera.png', alt='Texto que describa la imagen')
+          
+          .tarjeta.fondotarjeta.p-4(x="29%" y="69%" numero="+")
+            .py-2
+            .row.align-items-center
+              .col-lg-12
+                h5 Bolso a la muñeca
+              .col-lg-12
+                img(src='@/assets/curso/temas/Tema3/muneca.png', alt='Texto que describa la imagen')
 
-          .tarjeta.color-acento-botones.p-3(x="10%" y="10%" numero="A")
-            .h5.mb-2 titulo
-            p Lorem ipsum dolor ddasdasd asdasd asdasd a asd sd asdasd sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
+          .tarjeta.fondotarjeta.p-4(x="36%" y="88%" numero="+")
+            .py-2
+            .row.align-items-center
+              .col-lg-12
+                h5 Morral o mochila
+              .col-lg-12
+                img(src='@/assets/curso/temas/Tema3/mochila.png', alt='Texto que describa la imagen')
+          
+          .tarjeta.fondotarjeta.p-4(x="64%" y="88%" numero="+")
+            .py-2
+            .row.align-items-center
+              .col-lg-12
+                h5 Bolso con marco
+              .col-lg-12
+                img(src='@/assets/curso/temas/Tema3/marco.png', alt='Texto que describa la imagen')
 
-          .tarjeta.color-acento-botones.p-3(x="70%" y="70%" numero="B")
-            .h5.mb-2 titulo
-            p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
+          .tarjeta.fondotarjeta.p-4(x="71%" y="69%" numero="+")
+            .py-2
+            .row.align-items-center
+              .col-lg-12
+                h5 Bolso tipo sobre
+              .col-lg-12
+                img(src='@/assets/curso/temas/Tema3/sobre.png', alt='Texto que describa la imagen')
+
+          .tarjeta.fondotarjeta.p-4(x="73%" y="50%" numero="+")
+            .py-2
+            .row.align-items-center
+              .col-lg-12
+                h5 Bolso tipo balde
+              .col-lg-12
+                img(src='@/assets/curso/temas/Tema3/balde.png', alt='Texto que describa la imagen')
+
+          .tarjeta.fondotarjeta.p-4(x="72%" y="31%" numero="+")
+            .py-2
+            .row.align-items-center
+              .col-lg-12
+                h5 Bolso bag o barril
+              .col-lg-12
+                img(src='@/assets/curso/temas/Tema3/balde.png', alt='Texto que describa la imagen')
+
+
+          .tarjeta.fondotarjeta.p-4(x="64%" y="12%" numero="+")
+            .py-2
+            .row.align-items-center
+              .col-lg-12
+                h5 Bolso de mano
+              .col-lg-12
+                img(src='@/assets/curso/temas/Tema3/mano.png', alt='Texto que describa la imagen')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
       .row.justify-content-center.align-items-center.mb-0(data-aos="fade-down")
