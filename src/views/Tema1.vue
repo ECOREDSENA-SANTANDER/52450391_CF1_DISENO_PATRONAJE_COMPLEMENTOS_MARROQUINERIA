@@ -27,7 +27,7 @@
           p Para comprender el diseño y desarrollo de complementos en marroquinería, es fundamental conocer la siguiente terminología especializada:
       
       .row.justify-content-center.align-items-center(data-aos="fade-left").mb-4
-        .col-lg-3.col-8
+        .col-lg-3.col-8.col-sm-6
           img(src='@/assets/curso/temas/Tema1/img02.png', alt='')
         .col-lg-7
           .row.justify-content-center.align-items-center.mb-5.fondoslyder.p-4
@@ -80,11 +80,11 @@
         h2 1.1  Materiales e insumos utilizados en marroquinería, clases y características
 
       .row.justify-content-center.align-items-center.mb-5
-        .col-lg-5
+        .col-lg-5.col-12
           img(src='@/assets/curso/temas/Tema1/img03.png', alt='')
         .col-lg-7 
           .row.justify-content-center.align-items-center
-            .col-lg-2
+            .col-lg-2.col-3.mb-2
               img(src='@/assets/curso/temas/Tema1/camisa.svg', alt='')
             .col-lg-10.bg3.p-2
               p.p-2 Dentro de la marroquinería, se emplean diversos materiales que permiten la fabricación de productos en cuero, materiales sintéticos, lonas, textiles y otros compuestos especializados.
@@ -156,6 +156,34 @@
           .d-flex.align-items-center.mt-3
             h3.bg5.py-2.w-card-text Sintético
       p Es un material que presenta una base textil a la cual se le aplica una capa de sintético ya sea de PV o PU. Entre estos materiales se encuentran:
+      
+      .tarjeta--container.row(data-aos="zoom-in-left")
+        .col-md-12.tarjeta.bg10.p-5.col-lg-6
+          .row.align-items-end.mb-4
+            .col-2
+              img(src='@/assets/curso/temas/Tema1/ico3.svg', alt='')
+            .col-5.col-10
+              .bg-color.w-fit.p-2.px-4
+                h3.mb-0.text-white PU (poliuretano)
+          p Es un polímero parecido al cuero en cuanto a su parte formal. Es flexible y se utiliza en calzado, tapicería y marroquinería.
+          .titulo-sexto.color-acento-contenido
+            h5 Figura 4. 
+            span Material sintético PU (poliuretano)
+          figure
+            img(src='@/assets/curso/temas/Tema1/img05.png', alt='La imagen presenta un material sintético de poliuretano (PU) en tonos marrón, con una textura diferenciada entre la parte superior e inferior. La zona superior exhibe un patrón con acabado texturizado, mientras que la inferior tiene una apariencia más lisa. Una línea de puntadas separa ambas secciones, resaltando el contraste entre las superficies.')
+        .col-md-12.tarjeta.bg11.p-5.col-lg-6
+          .row.align-items-end.mb-4
+            .col-2
+              img(src='@/assets/curso/temas/Tema1/ico4.svg', alt='')
+            .col-10
+              .bg-color.w-fit.p-2.px-4
+                h3.mb-0.text-white PVC (policloruro de vinilo)
+          p Es un material termoplástico rígido y flexible, el cual es similar al cuero, se utiliza en marroquinería y tapicería.
+          .titulo-sexto.color-acento-contenido
+            h5 Figura 5. 
+            span Material sintético PVC
+          figure
+            img(src='@/assets/curso/temas/Tema1/img06.png', alt='La imagen presenta un material sintético de PVC en color rojo, con una textura superficial irregular que genera un efecto rugoso. El acabado refleja la luz de manera desigual, resaltando variaciones en el tono y la apariencia del material.')
 
       .row.justify-content-start(data-aos="zoom-in-left")
         .col-sm-12.col-lg-5
@@ -228,10 +256,11 @@
               .col
                 .row.justify-content-between.align-items-end.mb-3
                   .col.mb-3.mb-sm-0
+                    .py-2
                     p  Para ampliar esta información, lo invitamos a navegar en los siguientes enlaces, cuyo objetivo es profundizar en la temática de costos para las empresas de marroquinería:
                     h5.mb-1 Cartilla práctica para el cálculo de costos para las empresas de calzado y marroquinería.
                   .col-sm-auto.col-lg-2
-                    a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                    a.boton.color-acento-botones.texto-blanco(href="https://indd.adobe.com/view/b13edd50-af60-4404-a80d-42cd84e81ab1" target="_blank")
                       span Ir al sitio
                       i.fas.fa-globe
                 .row.justify-content-around.align-items-center
@@ -241,9 +270,343 @@
                   .col.mb-3.mb-sm-0
                     h5.mb-1 Cartilla práctica para el cálculo de costos para las empresas de calzado y marroquinería.
                   .col-sm-auto.col-lg-2
-                    a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                    a.boton.color-acento-botones.texto-blanco(href="https://indd.adobe.com/view/54049df9-d67c-4e28-998d-ef374c8d6ca1" target="_blank")
                       span Ir al sitio
                       i.fas.fa-globe
+                    .py-2
+
+      .row.justify-content-center.align-items-center.mb-4
+        .col-lg-9
+          .tarjeta--container.row.ali(data-aos="zoom-in-left")
+            .col-md.tarjeta.bg12.p-5
+              img(src='@/assets/curso/temas/Tema1/img08.png', alt='')
+            .col-md.tarjeta.bg13.p-5
+              .row.align-items-end
+                .col-12
+                  p Determinar con precisión los costos de producción no solo facilita la toma de decisiones estratégicas en la industria, sino que también permite abordar aspectos clave como la contabilidad de costos, la clasificación y los sistemas de costeo, así como la gestión de materias primas, los costos de mano de obra y la asignación de costos indirectos de fabricación. Esto proporciona herramientas fundamentales para optimizar el uso de materiales, minimizar desperdicios y calcular de manera precisa el costo unitario de los productos, lo que resulta esencial para fortalecer la competitividad y garantizar la sostenibilidad empresarial en un sector que enfrenta constantes desafíos en materia de formalización y eficiencia productiva.
+            .py-2
+        .col-lg-3.col-8.col-sm-6
+          img(src='@/assets/curso/temas/Tema1/img07.png', alt='')
+      .row
+        .col-lg-12
+          p La gestión de inventarios en la industria de marroquinería implica el control estratégico de materias primas, insumos y productos terminados, garantizando una rotación óptima de existencias para minimizar costos de almacenamiento y obsolescencia; así mismo es fundamental alinear el ciclo de vida del inventario con la demanda del mercado, considerando tendencias de moda, estacionalidad y capacidad productiva, lo que permite una gestión eficiente del stock y evita sobreproducción o desabastecimiento.
+      .row.p-4.bg3
+        .col-lg-12
+          p Por otro lado, la gestión del talento humano en este sector requiere estrategias de capacitación y retención de personal altamente especializado, asegurando eficiencia en los procesos de diseño y confección. En conjunto, la gestión financiera debe enfocarse en la optimización de costos de producción, análisis de rentabilidad y flujo de caja para garantizar la sostenibilidad del negocio, integrando herramientas tecnológicas que permitan mejorar la toma de decisiones y la competitividad en el mercado.
+
+
+
+      .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+        .col-sm-12.col-lg-7
+          .d-flex.align-items-center.mt-4
+            img.w-card-icon(src="@/assets/curso/temas/Tema1/ico5.svg")
+            h3.bg2.py-2.w-card-text.text-white Insumos
+    
+      .row.justify-content-center.align-items-center(data-aos="fade-left").mb-4
+        .col-lg-12.col-md-12.col-12
+          .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
+            .bloque-texto-g__img(
+              :style="{'background-image': `url(${require('@/assets/curso/temas/Tema1/img09.png')})`}"
+            )
+            .bloque-texto-g__texto.p-4
+              br
+              p.mb-4 Dentro del proceso de elaboración de productos de marroquinería, se emplean diversos insumos que han sido previamente procesados y que desempeñan un papel esencial en la calidad, funcionalidad y acabado de los artículos. Estos materiales incluyen distintos tipos de cueros, sintéticos, textiles, herrajes, adhesivos y elementos de refuerzo o relleno, como el yumbolón, las micro porosas y las espumas. 
+              br
+              br
+              p Cada uno de estos componentes aporta características específicas al producto final, ya sea en términos de resistencia, flexibilidad, estética o confort. La selección adecuada de estos insumos es crucial para garantizar la durabilidad y el diseño óptimo de cada pieza en la industria marroquinera.
+              br
+              br
+        
+      .row.justify-content-center.align-items-center(data-aos="fade-left").mb-4
+        .col-lg-4.col-md-12.col-12
+          p A continuación, se exponen algunos insumos:
+
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-12.col-12.col-sm-12
+          SlyderF(columnas="col-lg-3 col-xl-4 col-md-8").mb-5
+            .tarjeta.color.p-4
+              .row.justify-content-center
+                .col-12
+                  img.img-a.img-t.mb-4(data-aos="zoom-in-left")(src='@/assets/curso/temas/Tema1/ico1.png' alt='AvatarTop')
+                  .row.justify-content-center
+                    .col-8.mb-2
+                      h4.text-center.bg-color.p-2.text-white Solución de caucho
+                    .col-10.mb-4 
+                      p.text-center.mb-0 Adhesivo de caucho natural y resinas sintéticas, usado en marroquinería para unir cuero, sintéticos, carnazas, espumas y textiles. Funciona como fijación previa a la costura y en aplicaciones de baja resistencia. Requiere ventilación y protección adecuada.
+            
+            .tarjeta.color.p-4
+              .row.justify-content-center
+                .col-12
+                  img.img-a.img-t.mb-4(data-aos="zoom-in-left")(src='@/assets/curso/temas/Tema1/ico2.png' alt='AvatarTop')
+                  .row.justify-content-center
+                    .col-9.mb-2
+                      h4.text-center.bg-color.p-2.text-white Cemento de contacto
+                    .col-10.mb-4 
+                      p.text-center.mb-0 Pegante a base de poliuretano diseñado para la unión permanente de materiales como cuero, sintéticos, espumas y odenas. Su aplicación debe realizarse en un espacio con buena ventilación y con el uso de tapabocas para garantizar seguridad.
+
+
+            .tarjeta.color.p-4
+              .row.justify-content-center
+                .col-12
+                  img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/temas/Tema1/ico3.png' alt='AvatarTop')
+                  .row.justify-content-center
+                    .col-9.mb-2
+                      h4.text-center.bg-color.p-2.text-white Sellador
+                    .col-10.mb-4 
+                      p.text-center.mb-0 Producto destinado al acabado de bordes, ideal para rellenar e igualar superficies, especialmente en los cantos de piezas de cuero o material sintético con alta porosidad.
+
+            .tarjeta.color.p-4
+              .row.justify-content-center
+                .col-12
+                  img.img-a.img-t.mb-4(data-aos="zoom-in-left")(src='@/assets/curso/temas/Tema1/ico4.png' alt='AvatarTop')
+                  .row.justify-content-center
+                    .col-8.mb-2
+                      h4.text-center.bg-color.p-2.text-white Tinta de acabado
+                    .col-10.mb-4 
+                      p.text-center.mb-0 Es una tinta que se usa para el acabado de bordes, esta permite obtener acabado brillante o mate para el desarrollo de productos como billeteras, cinturones, y bolsos de cuero y/o sintético cuando la pieza está al corte.
+            
+            .tarjeta.color.p-4
+              .row.justify-content-center
+                .col-12
+                  img.img-a.img-t.mb-4(data-aos="zoom-in-left")(src='@/assets/curso/temas/Tema1/ico5.png' alt='AvatarTop')
+                  .row.justify-content-center
+                    .col-9.mb-2
+                      h4.text-center.bg-color.p-2.text-white Colorantes
+                    .col-10.mb-4 
+                      p.text-center.mb-0 Pueden ser anilinas minerales a base de agua o alcohol, disponibles en el mercado en una variedad de colores, ya sea en presentaciones listas para usar o en formatos para preparación.
+
+            .tarjeta.color.p-4
+              .row.justify-content-center
+                .col-12
+                  img.img-a.img-t.mb-4(data-aos="zoom-in-left")(src='@/assets/curso/temas/Tema1/ico6.png' alt='AvatarTop')
+                  .row.justify-content-center
+                    .col-8.mb-2
+                      h4.text-center.bg-color.p-2.text-white Pigmentos
+                    .col-10.mb-4 
+                      p.text-center.mb-0 Tinturas vinílicas que cubren sin penetrar la superficie, disponibles en diversos colores y acabados mate o brillante, algunas con sellador integrado.
+            
+            .tarjeta.color.p-4
+              .row.justify-content-center
+                .col-12
+                  img.img-a.img-t.mb-2(data-aos="zoom-in-left")(src='@/assets/curso/temas/Tema1/ico7.png' alt='AvatarTop')
+                  .row.justify-content-center
+                    .col-9.mb-2
+                      h4.text-center.bg-color.p-2.text-white Emulsión natural
+                    .col-10.mb-4 
+                      p.text-center.mb-0 Utilizada para sellar las anilinas, previniendo la decoloración y las manchas causadas por el contacto con el agua.
+
+
+
+            .tarjeta.color.p-4
+              .row.justify-content-center
+                .col-12
+                  img.img-a.img-t.mb-4(data-aos="zoom-in-left")(src='@/assets/curso/temas/Tema1/ico8.png' alt='AvatarTop')
+                  .row.justify-content-center
+                    .col-8.mb-2
+                      h4.text-center.bg-color.p-2.text-white Sellador
+                    .col-10.mb-4 
+                      p.text-center.mb-0 Es un producto que se usa para sellar la tintura dando una apariencia natural y buena resistencia al frote. Se encuentra en mate o brillante.
+            
+            .tarjeta.color.p-4
+              .row.justify-content-center
+                .col-12
+                  img.img-a.img-t.mb-4(data-aos="zoom-in-left")(src='@/assets/curso/temas/Tema1/ico9.png' alt='AvatarTop')
+                  .row.justify-content-center
+                    .col-9.mb-2
+                      h4.text-center.bg-color.p-2.text-white Cremalleras
+                    .col-10.mb-4 
+                      p.text-center.mb-0 Existe una amplia variedad de cremalleras, entre ellas las de nylon, metálicas, desmontables y de cadena continua, siendo esta última la más utilizada en marroquinería.
+
+
+            .tarjeta.color.p-4
+              .row.justify-content-center
+                .col-12
+                  img.img-a.img-t.mb-4(data-aos="zoom-in-left")(src='@/assets/curso/temas/Tema1/ico10.png' alt='AvatarTop')
+                  .row.justify-content-center
+                    .col-9.mb-2
+                      h4.text-center.bg-color.p-2.text-white Deslizadores
+                    .col-10.mb-4 
+                      p.text-center.mb-0 Son los carreteles que permiten abrir y cerrar la cremallera, deslizándose sobre los dientes del cierre. Están disponibles en diversas formas y acabados.
+
+
+
+            .tarjeta.color.p-4
+              .row.justify-content-center
+                .col-12
+                  img.img-a.img-t.mb-4(data-aos="zoom-in-left")(src='@/assets/curso/temas/Tema1/ico11.png' alt='AvatarTop')
+                  .row.justify-content-center
+                    .col-8.mb-2
+                      h4.text-center.bg-color.p-2.text-white Broches
+                    .col-10.mb-4 
+                      p.text-center.mb-0 Se usan para cerrar algunos productos como billeteras, bolsos, monederos según diseño y existen broches imanados o broches tipo cazuela.
+            
+            .tarjeta.color.p-4
+              .row.justify-content-center
+                .col-12
+                  img.img-a.img-t.mb-4(data-aos="zoom-in-left")(src='@/assets/curso/temas/Tema1/ico12.png' alt='AvatarTop')
+                  .row.justify-content-center
+                    .col-9.mb-2
+                      h4.text-center.bg-color.p-2.text-white Reatas
+                    .col-10.mb-4 
+                      p.text-center.mb-0 Tejido utilizado en marroquinería para cinturones, correas, bolsos, maletines, etc. Se encuentra por rollos y en diferentes medidas.
+
+            .tarjeta.color.p-4
+              .row.justify-content-center
+                .col-12
+                  img.img-a.img-t.mb-4(data-aos="zoom-in-left")(src='@/assets/curso/temas/Tema1/ico13.png' alt='AvatarTop')
+                  .row.justify-content-center
+                    .col-9.mb-2
+                      h4.text-center.bg-color.p-2.text-white Velcro
+                    .col-10.mb-4 
+                      p.text-center.mb-0 Es un tipo de cierre de contacto, compuesto por dos partes: una áspera y otra suave y al unirlas generan el cierre. Se usa para cerrar billeteras, bolsos, etc. según el diseño del producto.
+
+
+
+            .tarjeta.color.p-4
+              .row.justify-content-center
+                .col-12
+                  img.img-a.img-t.mb-4(data-aos="zoom-in-left")(src='@/assets/curso/temas/Tema1/ico14.png' alt='AvatarTop')
+                  .row.justify-content-center
+                    .col-8.mb-2
+                      h4.text-center.bg-color.p-2.text-white Cinta falla
+                    .col-10.mb-4 
+                      p.text-center.mb-0 Es una cinta en polyester que se usa para decorar y dar acabados en la confección, se utiliza para ribetear a máquina. Se encuentra en el mercado por rollos y en diferentes colores.
+            
+            .tarjeta.color.p-4
+              .row.justify-content-center
+                .col-12
+                  img.img-a.img-t.mb-4(data-aos="zoom-in-left")(src='@/assets/curso/temas/Tema1/ico15.png' alt='AvatarTop')
+                  .row.justify-content-center
+                    .col-9.mb-2
+                      h4.text-center.bg-color.p-2.text-white Hilo
+                    .col-10.mb-4 
+                      p.text-center.mb-0 El hilo más adecuado para marroquinería es el de nylon (poliamida) por su alta resistencia y durabilidad. Disponible en varios calibres, los más usados son No. 20, No. 40 y No. 60.
+
+
+
+            .tarjeta.color.p-4
+              .row.justify-content-center
+                .col-12
+                  img.img-a.img-t.mb-4(data-aos="zoom-in-left")(src='@/assets/curso/temas/Tema1/ico16.png' alt='AvatarTop')
+                  .row.justify-content-center
+                    .col-9.mb-2
+                      h4.text-center.bg-color.p-2.text-white Cordones
+                    .col-10.mb-4 
+                      p.text-center.mb-0 Son tejidos cilíndricos de algodón y polyester de varios espesores, usados como cierres según diseños o como rellenos para formar manijas.
+
+
+
+            .tarjeta.color.p-4
+              .row.justify-content-center
+                .col-12
+                  img.img-a.img-t.mb-4(data-aos="zoom-in-left")(src='@/assets/curso/temas/Tema1/ico17.png' alt='AvatarTop')
+                  .row.justify-content-center
+                    .col-8.mb-2
+                      h4.text-center.bg-color.p-2.text-white Vivos
+                    .col-10.mb-4 
+                      p.text-center.mb-0 Cordones o refuerzos recubiertos de material textil o sintético para estructurar y embellecer bordes en bolsos y calzado. Tipos como vivo espagueti y plástico mejoran resistencia y estética.
+            
+            .tarjeta.color.p-4
+              .row.justify-content-center
+                .col-12
+                  img.img-a.img-t.mb-4(data-aos="zoom-in-left")(src='@/assets/curso/temas/Tema1/ico18.png' alt='AvatarTop')
+                  .row.justify-content-center
+                    .col-9.mb-2
+                      h4.text-center.bg-color.p-2.text-white Herrajes
+                    .col-10.mb-4 
+                      p.text-center.mb-0 Tiene varias clases como son: hebillas, mosquetones, chapas, remaches, ojáleles, argollas, cuadrantes, torniquetes, cadenas, trabillas, pasadores, etc.
+
+
+        .row.justify-content-center.align-items-center.mb-5
+          .col-lg-12
+            img(src='@/assets/curso/temas/Tema1/linea2.svg', alt='')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

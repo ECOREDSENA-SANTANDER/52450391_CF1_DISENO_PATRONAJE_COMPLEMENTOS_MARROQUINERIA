@@ -61,7 +61,7 @@
           h3.bg2.py-2.w-card-text.text-white Generación de alternativas
     
     .row.justify-content-center.mb-5(data-aos="fade-down")
-      .col-lg-4
+      .col-lg-4.col-sm-8
         img(src='@/assets/curso/temas/Tema3/img06.png', alt='')
       .col-lg-8
         .row.justify-content-center.align-items-center.mb-1.p-4.bg3
@@ -204,7 +204,7 @@
         .col-lg-9
           p Esta clasificación facilita la identificación de la mejor alternativa según el propósito y funcionalidad esperada del producto.
       .row.justify-content-center.align-items-center.mb-0(data-aos="fade-down")
-        .col-lg-3.col-8.mb-3
+        .col-lg-3.col-8.mb-3.col-sm-6
           img(src='@/assets/curso/temas/Tema3/img09.png', alt='')
         .col-lg-9
           .row.justify-content-center.align-items-center

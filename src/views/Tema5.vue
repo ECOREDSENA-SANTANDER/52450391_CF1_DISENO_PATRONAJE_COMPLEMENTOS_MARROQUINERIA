@@ -13,7 +13,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12.col-12
         TabsC.color-acento-color-acento-contenido   
-          .bgimg2.py-3.py-md-4(titulo="Encaje del dibujo")
+          .bgimg2.py-4.py-md-4(titulo="Encaje del dibujo")
             .row.justify-content-center.align-items-center.mb-5.p-4
               .col-md-5.mb-4.mb-md-0
                 h4 Encaje del dibujo
@@ -27,7 +27,7 @@
                 figure
                   img(src='@/assets/curso/temas/Tema5/figura7.png', alt='Un esquema geométrico compuesto por un trapecio y un cuadrado está estructurado con líneas de construcción. El trapecio tiene una base inferior de 35 cm y una altura de 20 cm. El cuadrado se encuentra centrado en la parte superior del trapecio, interceptándolo parcialmente.')
         
-          .bgimg2.py-3.py-md-4(titulo="Determinación de proporciones")
+          .bgimg2.py-4.py-md-4(titulo="Determinación de proporciones")
             .row.justify-content-center.align-items-center.mb-5.p-4
               .col-md-5.mb-4.mb-md-0
                 h4 Determinación de proporciones
@@ -41,7 +41,7 @@
                 figure
                   img(src='@/assets/curso/temas/Tema5/figura8.png', alt='Se presenta a un individuo, sentado en un espacio de trabajo, sostiene un documento o una hoja mientras la coloca dentro de un portafolio de cuero abierto. La escena sugiere un proceso de determinación de proporciones y ajuste de dimensiones.')
             
-          .bgimg2.py-3.py-md-4(titulo="Elaboración del boceto")
+          .bgimg2.py-4.py-md-4(titulo="Elaboración del boceto")
             .row.justify-content-center.align-items-center.mb-5.p-4
               .col-md-5.mb-4.mb-md-0
                 h4 Elaboración del boceto
