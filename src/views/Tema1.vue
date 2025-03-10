@@ -60,7 +60,7 @@
                 .row.justify-content-center.align-items-center
                   .col-md-11
                     h5 #[em Mood board]
-                    p es una herramienta visual utilizada en el proceso de diseño, que permite organizar y representar de manera creativa la investigación conceptual de una colección. A través de imágenes, texturas, colores y referencias estilísticas, facilita la materialización de una propuesta coherente y alineada con las tendencias del mercado.
+                    p Es una herramienta visual utilizada en el proceso de diseño, que permite organizar y representar de manera creativa la investigación conceptual de una colección. A través de imágenes, texturas, colores y referencias estilísticas, facilita la materialización de una propuesta coherente y alineada con las tendencias del mercado.
                 .row.justify-content-center.align-items-center
                   .col-md-11
                     h5 Materiales
@@ -72,7 +72,7 @@
                 .row.justify-content-center.align-items-center
                   .col-md-11
                     h5 Herramientas
-                    p en marroquinería comprenden todos los instrumentos utilizados en el proceso de fabricación y ensamblaje del cuero y sus complementos. Entre ellas se encuentran cuchillas, cúteres, sacabocados, matrices de estampado, prensas, máquinas de coser especializadas y herramientas de acabado, esenciales para garantizar precisión y calidad en la manufactura.
+                    p En marroquinería comprenden todos los instrumentos utilizados en el proceso de fabricación y ensamblaje del cuero y sus complementos. Entre ellas se encuentran cuchillas, cúteres, sacabocados, matrices de estampado, prensas, máquinas de coser especializadas y herramientas de acabado, esenciales para garantizar precisión y calidad en la manufactura.
 
 
       separador
@@ -206,8 +206,8 @@
                   i.fas.fa-check-circle
                   | #[b Sedas y forros:]  materiales internos más livianos que la tela base y el material externo, con una textura suave y agradable al tacto como:
                 li
-                  p - Tafeta de acetato: tela artificial fabricada con hilos de fibra de acetato de celulosa. Se utiliza en el desarrollo de forros para marroquinería fina, pues no destiñe, no se arruga, ni se encoge.
-                  p - Tafeta de nylon: tela de material sintético, es elástica y fácil de lavar, no es absorbente, seca rápido y recupera su forma con facilidad; se utiliza para el desarrollo de forros de carteras especialmente.
+                  p #[b - Tafeta de acetato:] tela artificial fabricada con hilos de fibra de acetato de celulosa. Se utiliza en el desarrollo de forros para marroquinería fina, pues no destiñe, no se arruga, ni se encoge.
+                  p #[b - Tafeta de nylon:] tela de material sintético, es elástica y fácil de lavar, no es absorbente, seca rápido y recupera su forma con facilidad; se utiliza para el desarrollo de forros de carteras especialmente.
 
         .row.justify-content-start(data-aos="zoom-in-left")
           .col-sm-12.col-lg-5
@@ -268,7 +268,7 @@
                     img(src="@/assets/curso/temas/Tema1/linea.svg")
                 .row.justify-content-between.align-items-center.mb-4
                   .col.mb-3.mb-sm-0
-                    h5.mb-1 Cartilla práctica para el cálculo de costos para las empresas de calzado y marroquinería.
+                    h5.mb-1 Cartilla práctica para la gestión empresarial y financiera en las empresas manufactureras.
                   .col-sm-auto.col-lg-2
                     a.boton.color-acento-botones.texto-blanco(href="https://indd.adobe.com/view/54049df9-d67c-4e28-998d-ef374c8d6ca1" target="_blank")
                       span Ir al sitio
