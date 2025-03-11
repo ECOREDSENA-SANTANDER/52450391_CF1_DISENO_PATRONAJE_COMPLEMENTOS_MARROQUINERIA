@@ -209,10 +209,10 @@
                   p #[b - Tafeta de acetato:] tela artificial fabricada con hilos de fibra de acetato de celulosa. Se utiliza en el desarrollo de forros para marroquinería fina, pues no destiñe, no se arruga, ni se encoge.
                   p #[b - Tafeta de nylon:] tela de material sintético, es elástica y fácil de lavar, no es absorbente, seca rápido y recupera su forma con facilidad; se utiliza para el desarrollo de forros de carteras especialmente.
 
-        .row.justify-content-start(data-aos="zoom-in-left")
-          .col-sm-12.col-lg-5
-            .d-flex.align-items-center.mt-3
-              h3.bg5.py-2.w-card-text Abullonados y refuerzos
+      .row.justify-content-start(data-aos="zoom-in-left")
+        .col-sm-12.col-lg-5
+          .d-flex.align-items-center.mt-3
+            h3.bg5.py-2.w-card-text Abullonados y refuerzos
         .py-2
         p Entre los materiales de relleno o abullonados se destacan el yumbolón, las micro porosas y las espumas, de la siguiente forma:
 

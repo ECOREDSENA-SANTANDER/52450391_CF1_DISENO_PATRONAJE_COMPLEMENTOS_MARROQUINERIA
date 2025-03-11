@@ -272,7 +272,7 @@ export default {
       autores: [
         {
           nombre: 'Edison Eduardo Mantilla Cuadros',
-          cargo: 'Diseñadora de contenidos digitales',
+          cargo: 'Diseñador de contenidos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {

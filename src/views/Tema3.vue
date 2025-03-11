@@ -259,15 +259,18 @@
             p Finalmente, se #[b estandariza el producto,] definiendo tipología, dimensiones y componentes para la elaboración de la #[b ficha técnica,] documento que establece los parámetros de producción y control de calidad.
             br
             br
+    
+    .row.fondot3.align-items-center.p-4(data-aos="fade-down")
+      .col-lg-12.col-12.px-lg-5.px-4
+        .row.justify-content-center.align-items-center.mb-3(data-aos="fade-left")
+          .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+            h5 Figura 6. 
+            span Ficha técnica del producto
 
-    .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-      h5 Figura 6. 
-      span Ficha técnica del producto
-
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-8
-        img(src='@/assets/curso/temas/Tema3/tabla.svg', alt='La figura representa una ficha técnica de producto estructurada en diferentes secciones. En la parte superior, se incluyen campos para el nombre del artículo, colección, línea, fecha, dimensiones, colores y referencia, junto con un espacio destinado a la imagen del producto. Más abajo, se dispone un apartado para la descripción general. La ficha también contiene una sección de especificaciones, donde se detallan los materiales y colores del interior y exterior del producto. Se incorporan datos sobre la costura, especificando el tipo de hilo, calibre, color y si se realiza manualmente o con máquina. Finalmente, se incluyen espacios para registrar los herrajes, apliques y observaciones adicionales.')
-        figcaption Fuente: SENA
+        .row.justify-content-center.align-items-center.mb-5
+          .col-lg-8
+            img(src='@/assets/curso/temas/Tema3/tabla.svg', alt='La figura representa una ficha técnica de producto estructurada en diferentes secciones. En la parte superior, se incluyen campos para el nombre del artículo, colección, línea, fecha, dimensiones, colores y referencia, junto con un espacio destinado a la imagen del producto. Más abajo, se dispone un apartado para la descripción general. La ficha también contiene una sección de especificaciones, donde se detallan los materiales y colores del interior y exterior del producto. Se incorporan datos sobre la costura, especificando el tipo de hilo, calibre, color y si se realiza manualmente o con máquina. Finalmente, se incluyen espacios para registrar los herrajes, apliques y observaciones adicionales.')
+            figcaption Fuente: SENA
 
     .tarjeta.fondolink.p-4.mb-0
       .row.justify-content-around.align-items-center.p-4
