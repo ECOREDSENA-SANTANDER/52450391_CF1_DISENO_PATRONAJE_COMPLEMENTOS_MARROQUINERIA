@@ -332,7 +332,7 @@
                     .col-8.mb-2
                       h4.text-center.bg-color.p-2.text-white Solución de caucho
                     .col-10.mb-4 
-                      p.text-center.mb-0 Adhesivo de caucho natural y resinas sintéticas, usado en marroquinería para unir cuero, sintéticos, carnazas, espumas y textiles. Funciona como fijación previa a la costura y en aplicaciones de baja resistencia. Requiere ventilación y protección adecuada.
+                      p.text-center.mb-0 Adhesivo de caucho natural y resinas sintéticas, usado en marroquinería para unir cuero, sintéticos, carnazas, espumas y textiles. Funciona como fijación previa a la costura y en aplicaciones de baja resistencia. Requiere ventilación y protección.
             
             .tarjeta.color.p-4
               .row.justify-content-center
@@ -456,7 +456,7 @@
                   img.img-a.img-t.mb-4(data-aos="zoom-in-left")(src='@/assets/curso/temas/Tema1/ico13.png' alt='AvatarTop')
                   .row.justify-content-center
                     .col-9.mb-2
-                      h4.text-center.bg-color.p-2.text-white Velcro
+                      h4.text-center.bg-color.p-2.text-white Velcro o cremallera de contacto
                     .col-10.mb-4 
                       p.text-center.mb-0 Es un tipo de cierre de contacto, compuesto por dos partes: una áspera y otra suave y al unirlas generan el cierre. Se usa para cerrar billeteras, bolsos, etc. según el diseño del producto.
 

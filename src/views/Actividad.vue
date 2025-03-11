@@ -20,7 +20,7 @@ export default {
       tema: 'Descubriendo el mundo de la marroquinería',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión de los conceptos fundamentales sobre marroquinería, incluyendo materiales, procesos y herramientas utilizadas en el diseño y fabricación de productos.',
+        '<b> Objetivo:</b> evaluar la comprensión de los conceptos fundamentales sobre marroquinería, incluyendo materiales, procesos y herramientas utilizadas en el diseño y fabricación de productos.',
       barajarPreguntas: true,
       preguntas: [
         {
@@ -121,7 +121,7 @@ export default {
             },
             {
               id: 'b',
-              texto: 'false',
+              texto: 'falso',
               esCorrecta: true,
             },
           ],
@@ -138,12 +138,12 @@ export default {
             {
               id: 'a',
               texto: 'Verdadero',
-              esCorrecta: false,
+              esCorrecta: true,
             },
             {
               id: 'b',
               texto: 'Falso',
-              esCorrecta: true,
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',

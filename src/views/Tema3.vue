@@ -32,7 +32,7 @@
       .col-lg-5 
         img(src='@/assets/curso/temas/Tema3/img02.png', alt='')
 
-      p Toda esta información se va integrando en el cuaderno de bocetos, donde se anexan recortes, trazos y otros elementos gráficos. Posteriormente, esta recopilación sirve como base para la creación del mood board o panel de investigación; este panel permite interpretar y organizar la información inicial del cuaderno de bocetos, facilitando su representación en el panel de colores y el panel de texturas.
+      p Toda esta información se va integrando en el cuaderno de bocetos, donde se anexan recortes, trazos y otros elementos gráficos. Posteriormente, esta recopilación sirve como base para la creación del #[em mood board] o panel de investigación; este panel permite interpretar y organizar la información inicial del cuaderno de bocetos, facilitando su representación en el panel de colores y el panel de texturas.
 
  
     .row.justify-content-center.mb-5(data-aos="fade-down")
@@ -210,7 +210,7 @@
           .row.justify-content-center.align-items-center
             .col-lg-12
               .row.justify-content-start.mb-2(data-aos="zoom-in-left")
-                .col-sm-12.col-lg-5
+                .col-sm-12.col-lg-5.col-12
                   .d-flex.align-items-center
                     h3.bg5.py-2.w-card-text Características del producto
             .col-lg-12
@@ -256,7 +256,7 @@
             p El proceso productivo se examina en función de su viabilidad y eficiencia, considerando operaciones, equipos, herramientas y recursos, con una clara identificación de los insumos y productos resultantes.
             br
             br
-            p Finalmente, se estandariza el producto, definiendo tipología, dimensiones y componentes para la elaboración de la ficha técnica, documento que establece los parámetros de producción y control de calidad.
+            p Finalmente, se #[b estandariza el producto,] definiendo tipología, dimensiones y componentes para la elaboración de la #[b ficha técnica,] documento que establece los parámetros de producción y control de calidad.
             br
             br
 

@@ -150,47 +150,47 @@ export default {
     {
       termino: 'Cremallera',
       significado:
-        'Mecanismo de cierre compuesto por dos filas de dientes que se enganchan mediante un deslizador, usado en productos de marroquinería.',
+        'mecanismo de cierre compuesto por dos filas de dientes que se enganchan mediante un deslizador, usado en productos de marroquinería.',
     },
     {
       termino: 'Curtido',
       significado:
-        ' Proceso químico o vegetal que estabiliza la piel animal para su uso en la fabricación de productos de cuero.',
+        ' proceso químico o vegetal que estabiliza la piel animal para su uso en la fabricación de productos de cuero.',
     },
     {
       termino: 'Diseño',
       significado:
-        'Herramienta estratégica que permite la creación y desarrollo de productos funcionales y estéticos en la marroquinería.',
+        'herramienta estratégica que permite la creación y desarrollo de productos funcionales y estéticos en la marroquinería.',
     },
     {
       termino: 'Encaje',
       significado:
-        'Técnica utilizada en el trazado de modelos para definir la estructura y proporciones de un producto.',
+        'técnica utilizada en el trazado de modelos para definir la estructura y proporciones de un producto.',
     },
     {
       termino: 'Forro',
       significado:
-        'Material interno empleado en productos de marroquinería para mejorar la resistencia, durabilidad y estética.',
+        'material interno empleado en productos de marroquinería para mejorar la resistencia, durabilidad y estética.',
     },
     {
       termino: 'Guata',
       significado:
-        'Material acolchado usado en marroquinería para proporcionar volumen, suavidad y aislamiento térmico.',
+        'material acolchado usado en marroquinería para proporcionar volumen, suavidad y aislamiento térmico.',
     },
     {
       termino: 'Herrajes',
       significado:
-        'Accesorios metálicos como hebillas, remaches y mosquetones utilizados para dar funcionalidad y estética a los productos.',
+        'accesorios metálicos como hebillas, remaches y mosquetones utilizados para dar funcionalidad y estética a los productos.',
     },
     {
       termino: 'Insumo',
       significado:
-        'Material o componente procesado que interviene en la fabricación de productos, como hilos, adhesivos y forros.',
+        'material o componente procesado que interviene en la fabricación de productos, como hilos, adhesivos y forros.',
     },
     {
       termino: 'Marroquinería',
       significado:
-        'Arte y técnica de transformar el cuero en productos funcionales y estéticos como bolsos, billeteras y correas.',
+        'arte y técnica de transformar el cuero en productos funcionales y estéticos como bolsos, billeteras y correas.',
     },
     {
       termino: '<i>Mood board</i>',
@@ -291,12 +291,12 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Erika Daniela Manrique Rueda',
+          nombre: 'Yineth González Quintero',
           cargo: 'Validadora de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Erika Fernanda Mejía Pinzón',
+          nombre: 'PENDIENTE ASIGNACIÓN',
           cargo: 'Evaluadora para contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },
