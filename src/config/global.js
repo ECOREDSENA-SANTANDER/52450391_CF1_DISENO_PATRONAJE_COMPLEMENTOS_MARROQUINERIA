@@ -256,7 +256,7 @@ export default {
       autores: [
         {
           nombre: 'Nohora Amparo Nieto Cárdenas',
-          cargo: 'NO TIENE CARGO EN EL DI',
+          cargo: 'Gestora desarrollo de programas',
           centro:
             'Centro de Manufactura en Textil y Cuero - Regional Distrito Capital ',
         },

@@ -108,7 +108,7 @@
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-12.col-12
           TabsC.color-acento-color-acento-contenido   
-            .bgimg2.py-3.py-md-4(titulo="Curtido al cromo")
+            .relleno.py-3.py-md-4(titulo="Curtido al cromo")
               .row.justify-content-center.align-items-center.mb-5.p-4
                 .col-md-5.mb-md-0
                   h4 Curtido al cromo
@@ -122,7 +122,7 @@
                   figure
                     img(src='@/assets/curso/temas/Tema1/figura1.png', alt='La imagen presenta varias piezas de cuero curtido al cromo en diferentes tonalidades, como marrón, amarillo y rojizo. Las piezas están dispuestas en capas, resaltando la textura y acabado del material.')
             
-            .bgimg2.py-3.py-md-4(titulo="Curtido vegetal")
+            .relleno.py-3.py-md-4(titulo="Curtido vegetal")
               .row.justify-content-center.align-items-center.mb-5.p-4
                 .col-md-5.mb-md-0
                   h4 Curtido vegetal
@@ -136,7 +136,7 @@
                   figure
                     img(src='@/assets/curso/temas/Tema1/figura2.png', alt='La imagen presenta piezas de cuero curtido al vegetal en tonos beige y marrón claro. Las superficies lisas y los bordes irregulares destacan las características naturales del material, resaltando su acabado orgánico y su textura.')
             
-            .bgimg2.py-3.py-md-4(titulo="Curtición mixta")
+            .relleno.py-3.py-md-4(titulo="Curtición mixta")
               .row.justify-content-center.align-items-center.mb-5.p-4
                 .col-md-5.mb-md-0
                   h4 Curtición mixta
@@ -207,14 +207,14 @@
                   | #[b Sedas y forros:]  materiales internos más livianos que la tela base y el material externo, con una textura suave y agradable al tacto como:
                 li
                   p #[b - Tafeta de acetato:] tela artificial fabricada con hilos de fibra de acetato de celulosa. Se utiliza en el desarrollo de forros para marroquinería fina, pues no destiñe, no se arruga, ni se encoge.
-                  p #[b - Tafeta de nylon:] tela de material sintético, es elástica y fácil de lavar, no es absorbente, seca rápido y recupera su forma con facilidad; se utiliza para el desarrollo de forros de carteras especialmente.
+                  p #[b - Tafeta de #[em nylon]:] tela de material sintético, es elástica y fácil de lavar, no es absorbente, seca rápido y recupera su forma con facilidad; se utiliza para el desarrollo de forros de carteras especialmente.
 
       .row.justify-content-start(data-aos="zoom-in-left")
         .col-sm-12.col-lg-5
           .d-flex.align-items-center.mt-3
             h3.bg5.py-2.w-card-text Abullonados y refuerzos
         .py-2
-        p Entre los materiales de relleno o abullonados se destacan el yumbolón, las micro porosas y las espumas, de la siguiente forma:
+        p Entre los materiales de relleno o abullonados se destacan el yumbolón, las microporosas y las espumas, de la siguiente forma:
 
 
       .row.justify-content-center.mb-2(data-aos="flip-up")
@@ -310,7 +310,7 @@
             )
             .bloque-texto-g__texto.p-4
               br
-              p.mb-4 Dentro del proceso de elaboración de productos de marroquinería, se emplean diversos insumos que han sido previamente procesados y que desempeñan un papel esencial en la calidad, funcionalidad y acabado de los artículos. Estos materiales incluyen distintos tipos de cueros, sintéticos, textiles, herrajes, adhesivos y elementos de refuerzo o relleno, como el yumbolón, las micro porosas y las espumas. 
+              p.mb-4 Dentro del proceso de elaboración de productos de marroquinería, se emplean diversos insumos que han sido previamente procesados y que desempeñan un papel esencial en la calidad, funcionalidad y acabado de los artículos. Estos materiales incluyen distintos tipos de cueros, sintéticos, textiles, herrajes, adhesivos y elementos de refuerzo o relleno, como el yumbolón, las microporosas y las espumas. 
               br
               br
               p Cada uno de estos componentes aporta características específicas al producto final, ya sea en términos de resistencia, flexibilidad, estética o confort. La selección adecuada de estos insumos es crucial para garantizar la durabilidad y el diseño óptimo de cada pieza en la industria marroquinera.
@@ -415,7 +415,7 @@
                     .col-9.mb-2
                       h4.text-center.bg-color.p-2.text-white Cremalleras
                     .col-10.mb-4 
-                      p.text-center.mb-0 Existe una amplia variedad de cremalleras, entre ellas las de nylon, metálicas, desmontables y de cadena continua, siendo esta última la más utilizada en marroquinería.
+                      p.text-center.mb-0 Existe una amplia variedad de cremalleras, entre ellas las de #[em nylon], metálicas, desmontables y de cadena continua, siendo esta última la más utilizada en marroquinería.
 
 
             .tarjeta.color.p-4
@@ -470,7 +470,7 @@
                     .col-8.mb-2
                       h4.text-center.bg-color.p-2.text-white Cinta falla
                     .col-10.mb-4 
-                      p.text-center.mb-0 Es una cinta en polyester que se usa para decorar y dar acabados en la confección, se utiliza para ribetear a máquina. Se encuentra en el mercado por rollos y en diferentes colores.
+                      p.text-center.mb-0 Es una cinta en #[em polyester] que se usa para decorar y dar acabados en la confección, se utiliza para ribetear a máquina. Se encuentra en el mercado por rollos y en diferentes colores.
             
             .tarjeta.color.p-4
               .row.justify-content-center
@@ -480,7 +480,7 @@
                     .col-9.mb-2
                       h4.text-center.bg-color.p-2.text-white Hilo
                     .col-10.mb-4 
-                      p.text-center.mb-0 El hilo más adecuado para marroquinería es el de nylon (poliamida) por su alta resistencia y durabilidad. Disponible en varios calibres, los más usados son No. 20, No. 40 y No. 60.
+                      p.text-center.mb-0 El hilo más adecuado para marroquinería es el de #[em nylon] (poliamida) por su alta resistencia y durabilidad. Disponible en varios calibres, los más usados son No. 20, No. 40 y No. 60.
 
 
 
@@ -492,7 +492,7 @@
                     .col-9.mb-2
                       h4.text-center.bg-color.p-2.text-white Cordones
                     .col-10.mb-4 
-                      p.text-center.mb-0 Son tejidos cilíndricos de algodón y polyester de varios espesores, usados como cierres según diseños o como rellenos para formar manijas.
+                      p.text-center.mb-0 Son tejidos cilíndricos de algodón y #[em polyester] de varios espesores, usados como cierres según diseños o como rellenos para formar manijas.
 
 
 

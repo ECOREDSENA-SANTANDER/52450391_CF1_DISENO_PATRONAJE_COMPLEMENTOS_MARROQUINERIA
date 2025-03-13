@@ -19,7 +19,7 @@
               p Este material, compuesto por láminas de papel de mayor espesor, facilita el corte y la conformación de los moldes. Se utiliza para desarrollar la moldería de acuerdo con el diseño requerido. Comercialmente, se encuentra en pliegos de 100 x 70 cm y en diversas tonalidades en el caso de la cartulina.
           .row(titulo="Portaminas o lápiz")
             .col-md-12.mb-4.mb-md-0
-              p Se emplea para realizar trazos precisos sobre el papel, lo que garantiza líneas exactas en la elaboración del molde. Se recomienda utilizar minas de 0.5 a 0.7 m.m para obtener una mayor precisión en los detalles.
+              p Se emplea para realizar trazos precisos sobre el papel, lo que garantiza líneas exactas en la elaboración del molde. Se recomienda utilizar minas de 0.5 a 0.7 mm para obtener una mayor precisión en los detalles.
           .row(titulo="Borrador")
             .col-md-12.mb-4.mb-md-0
               p Su función principal es corregir trazos sin generar manchas en el molde. Se recomienda el uso de borradores de miga de pan o de nata, ya que permiten hacer correcciones con mayor limpieza y precisión.

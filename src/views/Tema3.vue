@@ -282,9 +282,9 @@
               p  A continuación, puede descargar el anexo que contiene el formato de la ficha técnica del producto. 
               h3.mb-1 Ficha técnica del producto  
             .col-sm-auto.col-lg-2
-              a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                span Ir al sitio
-                i.fas.fa-globe
+              a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/Anexo1_ Ficha técnica del producto.pdf')" target="_blank")
+                span Descargar
+                i.fas.fa-download
       
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
