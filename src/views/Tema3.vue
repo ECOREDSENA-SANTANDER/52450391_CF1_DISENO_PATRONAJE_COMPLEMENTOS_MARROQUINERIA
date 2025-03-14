@@ -275,7 +275,7 @@
     .tarjeta.fondolink.p-4.mb-0
       .row.justify-content-around.align-items-center.p-4
         .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/temas/Tema3/web.svg")
+          img(src="@/assets/curso/temas/Tema3/descarga.svg")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0

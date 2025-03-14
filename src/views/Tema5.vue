@@ -13,9 +13,10 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12.col-12
         TabsC.color-acento-contenido   
-          .relleno.py-4.py-md-4(titulo="Encaje del dibujo")
+          .fondotabs.py-4.py-md-4(titulo="Encaje del dibujo")
             .row.justify-content-center.align-items-center.mb-5.p-4
               .col-md-5.mb-4.mb-md-0
+                br
                 h4 Encaje del dibujo
                 p El primer paso consiste en establecer las líneas de construcción que definirán la estructura básica del producto, determinando sus dimensiones en términos de largo, alto y ancho. Estas líneas sirven como guía para la distribución del diseño y pueden ser eliminadas o ajustadas una vez finalizado el boceto.
               
@@ -27,9 +28,10 @@
                 figure
                   img(src='@/assets/curso/temas/Tema5/figura7.png', alt='Un esquema geométrico compuesto por un trapecio y un cuadrado está estructurado con líneas de construcción. El trapecio tiene una base inferior de 35 cm y una altura de 20 cm. El cuadrado se encuentra centrado en la parte superior del trapecio, interceptándolo parcialmente.')
         
-          .relleno.py-4.py-md-4(titulo="Determinación de proporciones")
+          .fondotabs.py-4.py-md-4(titulo="Determinación de proporciones")
             .row.justify-content-center.align-items-center.mb-5.p-4
               .col-md-5.mb-4.mb-md-0
+                br
                 h4 Determinación de proporciones
                 p A partir de las líneas de construcción, se establecen las proporciones de las diferentes partes del producto, asegurando una distribución armónica y equilibrada. Este proceso permite visualizar la relación entre los distintos elementos del diseño antes de avanzar en su desarrollo tridimensional.
             
@@ -41,9 +43,11 @@
                 figure
                   img(src='@/assets/curso/temas/Tema5/figura8.png', alt='Se presenta a un individuo, sentado en un espacio de trabajo, sostiene un documento o una hoja mientras la coloca dentro de un portafolio de cuero abierto. La escena sugiere un proceso de determinación de proporciones y ajuste de dimensiones.')
             
-          .relleno.py-4.py-md-4(titulo="Elaboración del boceto")
+          .fondotabs.py-4.py-md-4(titulo="Elaboración del boceto")
             .row.justify-content-center.align-items-center.mb-5.p-4
               .col-md-5.mb-4.mb-md-0
+                br
+                br
                 h4 Elaboración del boceto
                 p Con base en los principios de perspectiva y volumetría, se genera un boceto tridimensional del producto, incorporando detalles clave como formas, materiales y propuesta de color. Este paso es fundamental para la visualización del diseño final y su viabilidad en el proceso de producción.
                 p El boceto es la representación gráfica de la idea conceptual del producto y no requiere conocimientos avanzados en dibujo técnico, ya que su propósito es servir como una herramienta de exploración creativa y de comunicación en el desarrollo del diseño.

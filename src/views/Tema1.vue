@@ -101,16 +101,17 @@
 
       .row.justify-content-start.mb-4(data-aos="zoom-in-left")
         .col-sm-12.col-lg-5
-          .d-flex.align-items-center.mt-3
+          .d-flex.align-items-center.mt-4
             h3.bg5.py-2.w-card-text Cuero
       p Es un material de origen animal obtenido mediante el proceso de curtido, el cual estabiliza la piel para evitar su descomposición y dotarla de propiedades mecánicas adecuadas para la fabricación de productos de marroquinería, talabartería, calzado y tapicería. Dependiendo del método de curtición, el cuero se clasifica en:
 
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-12.col-12
-          TabsC.color-acento-color-acento-contenido   
-            .relleno.py-3.py-md-4(titulo="Curtido al cromo")
+          TabsC
+            .relleno.py-3.py-md-4(titulo="Curtido al cromo").fondotabs
               .row.justify-content-center.align-items-center.mb-5.p-4
                 .col-md-5.mb-md-0
+                  br
                   h4 Curtido al cromo
                   p Se obtiene mediante un proceso de curtición con sales de cromo, lo que confiere al cuero suavidad, flexibilidad y facilidad para ser teñido en una amplia gama de colores. Es ampliamente utilizado en marroquinería, calzado, confección y tapicería debido a su alta resistencia y versatilidad.
                 
@@ -122,9 +123,10 @@
                   figure
                     img(src='@/assets/curso/temas/Tema1/figura1.png', alt='La imagen presenta varias piezas de cuero curtido al cromo en diferentes tonalidades, como marrón, amarillo y rojizo. Las piezas están dispuestas en capas, resaltando la textura y acabado del material.')
             
-            .relleno.py-3.py-md-4(titulo="Curtido vegetal")
+            .relleno.py-3.py-md-4(titulo="Curtido vegetal").fondotabs
               .row.justify-content-center.align-items-center.mb-5.p-4
                 .col-md-5.mb-md-0
+                  br
                   h4 Curtido vegetal
                   p Proceso artesanal en el que se utilizan taninos naturales extraídos de plantas, como el quebracho o la mimosa, para estabilizar la piel. Este tipo de cuero posee una textura firme y rígida, ideal para productos que requieren mayor estructura y durabilidad, como suelas de calzado, vaquetas y artículos de talabartería.
                 
@@ -136,9 +138,10 @@
                   figure
                     img(src='@/assets/curso/temas/Tema1/figura2.png', alt='La imagen presenta piezas de cuero curtido al vegetal en tonos beige y marrón claro. Las superficies lisas y los bordes irregulares destacan las características naturales del material, resaltando su acabado orgánico y su textura.')
             
-            .relleno.py-3.py-md-4(titulo="Curtición mixta")
+            .relleno.py-3.py-md-4(titulo="Curtición mixta").fondotabs
               .row.justify-content-center.align-items-center.mb-5.p-4
                 .col-md-5.mb-md-0
+                  br
                   h4 Curtición mixta
                   p Combina dos o más procesos de curtido, como el cromo y el vegetal, obteniendo un cuero con propiedades híbridas que lo hacen más resistente, maleable y estéticamente atractivo; es un material altamente valorado en marroquinería fina, ya que permite una mayor personalización y acabado superior en los productos terminados.
                 
@@ -160,9 +163,9 @@
       .tarjeta--container.row(data-aos="zoom-in-left")
         .col-md-12.tarjeta.bg10.p-5.col-lg-6
           .row.align-items-end.mb-4
-            .col-2
+            .col-3.col-lg-2
               img(src='@/assets/curso/temas/Tema1/ico3.svg', alt='')
-            .col-5.col-10
+            .col-lg-5.col-9
               .bg-color.w-fit.p-2.px-4
                 h3.mb-0.text-white PU (poliuretano)
           p Es un polímero parecido al cuero en cuanto a su parte formal. Es flexible y se utiliza en calzado, tapicería y marroquinería.
@@ -173,9 +176,9 @@
             img(src='@/assets/curso/temas/Tema1/img05.png', alt='La imagen presenta un material sintético de poliuretano (PU) en tonos marrón, con una textura diferenciada entre la parte superior e inferior. La zona superior exhibe un patrón con acabado texturizado, mientras que la inferior tiene una apariencia más lisa. Una línea de puntadas separa ambas secciones, resaltando el contraste entre las superficies.')
         .col-md-12.tarjeta.bg11.p-5.col-lg-6
           .row.align-items-end.mb-4
-            .col-2
+            .col-3.col-lg-2
               img(src='@/assets/curso/temas/Tema1/ico4.svg', alt='')
-            .col-10
+            .col-lg-7.col-9
               .bg-color.w-fit.p-2.px-4
                 h3.mb-0.text-white PVC (policloruro de vinilo)
           p Es un material termoplástico rígido y flexible, el cual es similar al cuero, se utiliza en marroquinería y tapicería.
@@ -197,7 +200,7 @@
           .row.justify-content-center.align-items-center.mb-5
             .col-lg-6
               img(src='@/assets/curso/temas/Tema1/img04.png', alt='')
-            .col-lg-5
+            .col-lg-5.col-11
               ul.lista-ul
                 li
                   i.fas.fa-check-circle
@@ -253,7 +256,7 @@
             .row.justify-content-around.align-items-center.p-4
               .col-3.col-sm-2.col-lg-1
                 img(src="@/assets/curso/temas/Tema3/web.svg")
-              .col
+              .col-12
                 .row.justify-content-between.align-items-end.mb-3
                   .col.mb-3.mb-sm-0
                     .py-2

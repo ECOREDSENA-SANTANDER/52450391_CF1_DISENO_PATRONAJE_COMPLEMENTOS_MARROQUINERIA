@@ -27,7 +27,8 @@
 
   100%
     transform: translateY(0px)
-  
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl
+    --bs-gutter-x: 2.7rem  
   
 .banner-principal .tarjeta
   background-position: left 50% !important
@@ -112,8 +113,8 @@ figcaption
     background-color: #4B1C16 !important
     border-color: #4B1C16
 .slyder-a__bullets__item 
-  width: 15px
-  height: 15px
+  width: 8px
+  height: 8px
   background-color: #BDA8A5
   border-radius: 50%
   box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0)
@@ -133,6 +134,15 @@ figcaption
   background-size: 100% 100%
   background-repeat: no-repeat
   background-position: center 
+  @media screen and (max-width: 767px)
+    background-size: cover 
+    border-radius: 20px
+.fondotabs
+  background: url('../assets/curso/temas/Tema1/fondotabs.png')
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  background-position: center 
+ 
 .fondo9
   background: url('../assets/curso/temas/Tema1/fondo3.png')
   background-size: 100% 100%
@@ -177,6 +187,12 @@ figcaption
   background-size: 100% 100%
   background-repeat: no-repeat
   background-position: center 
+  @media screen and (max-width: 767px)
+    background-size: cover 
+    margin-inline: -2.4rem
+    margin-right: -2rem
+    margin-left: -2rem
+
 .fondotarjeta
   background: url('../assets/curso/temas/Tema3/fondo9.png')
   background-size: 100% 100%
@@ -348,7 +364,7 @@ figcaption
   position: relative
   padding-left: 50px
   padding-right: 50px
-  left: -30px
+  left: -8px
   top: 8px
 
 .slyder-f__btn
