@@ -110,12 +110,12 @@
           TabsC
             .relleno.py-3.py-md-4(titulo="Curtido al cromo").fondotabs
               .row.justify-content-center.align-items-center.mb-5.p-4
-                .col-md-5.mb-md-0
+                .col-md-10.col-lg-5.mb-md-0
                   br
                   h4 Curtido al cromo
                   p Se obtiene mediante un proceso de curtición con sales de cromo, lo que confiere al cuero suavidad, flexibilidad y facilidad para ser teñido en una amplia gama de colores. Es ampliamente utilizado en marroquinería, calzado, confección y tapicería debido a su alta resistencia y versatilidad.
                 
-                .col-md-5
+                .col-md-8.col-lg-5
                   .py-2
                   .titulo-sexto.color-acento-contenido
                     h5 Figura 1.
@@ -125,12 +125,12 @@
             
             .relleno.py-3.py-md-4(titulo="Curtido vegetal").fondotabs
               .row.justify-content-center.align-items-center.mb-5.p-4
-                .col-md-5.mb-md-0
+                .col-md-10.col-lg-5.mb-md-0
                   br
                   h4 Curtido vegetal
                   p Proceso artesanal en el que se utilizan taninos naturales extraídos de plantas, como el quebracho o la mimosa, para estabilizar la piel. Este tipo de cuero posee una textura firme y rígida, ideal para productos que requieren mayor estructura y durabilidad, como suelas de calzado, vaquetas y artículos de talabartería.
                 
-                .col-md-5
+                .col-md-8.col-lg-5
                   .py-2
                   .titulo-sexto.color-acento-contenido
                     h5 Figura 2. 
@@ -140,12 +140,12 @@
             
             .relleno.py-3.py-md-4(titulo="Curtición mixta").fondotabs
               .row.justify-content-center.align-items-center.mb-5.p-4
-                .col-md-5.mb-md-0
+                .col-md-10.col-lg-5.mb-md-0
                   br
                   h4 Curtición mixta
                   p Combina dos o más procesos de curtido, como el cromo y el vegetal, obteniendo un cuero con propiedades híbridas que lo hacen más resistente, maleable y estéticamente atractivo; es un material altamente valorado en marroquinería fina, ya que permite una mayor personalización y acabado superior en los productos terminados.
                 
-                .col-md-5
+                .col-md-8.col-lg-5
                   .py-2
                   .titulo-sexto.color-acento-contenido
                     h5 Figura 3. 
@@ -163,7 +163,7 @@
       .tarjeta--container.row(data-aos="zoom-in-left")
         .col-md-12.tarjeta.bg10.p-5.col-lg-6
           .row.align-items-end.mb-4
-            .col-3.col-lg-2
+            .col-3.col-lg-2.col-md-2
               img(src='@/assets/curso/temas/Tema1/ico3.svg', alt='')
             .col-lg-5.col-9
               .bg-color.w-fit.p-2.px-4
@@ -176,7 +176,7 @@
             img(src='@/assets/curso/temas/Tema1/img05.png', alt='La imagen presenta un material sintético de poliuretano (PU) en tonos marrón, con una textura diferenciada entre la parte superior e inferior. La zona superior exhibe un patrón con acabado texturizado, mientras que la inferior tiene una apariencia más lisa. Una línea de puntadas separa ambas secciones, resaltando el contraste entre las superficies.')
         .col-md-12.tarjeta.bg11.p-5.col-lg-6
           .row.align-items-end.mb-4
-            .col-3.col-lg-2
+            .col-3.col-lg-2.col-md-2
               img(src='@/assets/curso/temas/Tema1/ico4.svg', alt='')
             .col-lg-7.col-9
               .bg-color.w-fit.p-2.px-4
@@ -198,7 +198,7 @@
       .row.justify-content-center.align-items-center.mb-5.fondo9
         .col-lg-10
           .row.justify-content-center.align-items-center.mb-5
-            .col-lg-6
+            .col-lg-6.col-8
               img(src='@/assets/curso/temas/Tema1/img04.png', alt='')
             .col-lg-5.col-11
               ul.lista-ul
@@ -256,12 +256,12 @@
             .row.justify-content-around.align-items-center.p-4
               .col-3.col-sm-2.col-lg-1
                 img(src="@/assets/curso/temas/Tema3/web.svg")
-              .col-12
+              .col-11
                 .row.justify-content-between.align-items-end.mb-3
                   .col.mb-3.mb-sm-0
                     .py-2
                     p  Para ampliar esta información, lo invitamos a navegar en los siguientes enlaces, cuyo objetivo es profundizar en la temática de costos para las empresas de marroquinería:
-                    h5.mb-1 Cartilla práctica para el cálculo de costos para las empresas de calzado y marroquinería.
+                    h5.mb-1.cafe Cartilla práctica para el cálculo de costos para las empresas de calzado y marroquinería.
                   .col-sm-auto.col-lg-2
                     a.boton.color-acento-botones.texto-blanco(href="https://indd.adobe.com/view/b13edd50-af60-4404-a80d-42cd84e81ab1" target="_blank")
                       span Ir al sitio
@@ -271,7 +271,7 @@
                     img(src="@/assets/curso/temas/Tema1/linea.svg")
                 .row.justify-content-between.align-items-center.mb-4
                   .col.mb-3.mb-sm-0
-                    h5.mb-1 Cartilla práctica para la gestión empresarial y financiera en las empresas manufactureras.
+                    h5.mb-1.cafe Cartilla práctica para la gestión empresarial y financiera en las empresas manufactureras.
                   .col-sm-auto.col-lg-2
                     a.boton.color-acento-botones.texto-blanco(href="https://indd.adobe.com/view/54049df9-d67c-4e28-998d-ef374c8d6ca1" target="_blank")
                       span Ir al sitio
@@ -281,11 +281,11 @@
       .row.justify-content-center.align-items-center.mb-4
         .col-lg-9
           .tarjeta--container.row.ali(data-aos="zoom-in-left")
-            .col-md.tarjeta.bg12.p-5
+            .col-lg-5.tarjeta.bg12.p-5.col-md-12
               img(src='@/assets/curso/temas/Tema1/img08.png', alt='')
-            .col-md.tarjeta.bg13.p-5
+            .col-lg-7.tarjeta.bg13.p-5
               .row.align-items-end
-                .col-12
+                .col-12.col-md-12
                   p Determinar con precisión los costos de producción no solo facilita la toma de decisiones estratégicas en la industria, sino que también permite abordar aspectos clave como la contabilidad de costos, la clasificación y los sistemas de costeo, así como la gestión de materias primas, los costos de mano de obra y la asignación de costos indirectos de fabricación. Esto proporciona herramientas fundamentales para optimizar el uso de materiales, minimizar desperdicios y calcular de manera precisa el costo unitario de los productos, lo que resulta esencial para fortalecer la competitividad y garantizar la sostenibilidad empresarial en un sector que enfrenta constantes desafíos en materia de formalización y eficiencia productiva.
             .py-2
         .col-lg-3.col-8.col-sm-6

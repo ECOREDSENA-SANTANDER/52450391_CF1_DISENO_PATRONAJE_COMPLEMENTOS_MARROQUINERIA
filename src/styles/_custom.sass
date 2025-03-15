@@ -1,14 +1,18 @@
 .banner-principal-decorativo
-  &-1
+  &-2
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 1%
+    top: 60%
     right: 80%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+  &-1
+    width: 100px
+    height: 100px
+    border-radius: 10px /* Hace que el bolso tenga bordes redondeados */
     position: absolute
-    top: 51%
-    right: 80%
+    top:  1%
+    left: 2%
+    transform-origin: top center /* Esto hace que la animación sea desde el punto superior central */
+    animation: balancear 4s ease-in-out infinite
   &-3
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
@@ -27,8 +31,19 @@
 
   100%
     transform: translateY(0px)
+
+
+@keyframes balancear 
+  0% 
+    transform: rotate(-15deg) /* Inclina el bolso a la izquierda */
+  50% 
+    transform: rotate(15deg) /* Inclina el bolso a la derecha */
+  100% 
+    transform: rotate(-15deg)
+  
+
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl
-    --bs-gutter-x: 2.7rem  
+    --bs-gutter-x: 3.5rem  
   
 .banner-principal .tarjeta
   background-position: left 50% !important
@@ -38,7 +53,8 @@
 
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
   color: white !important   
-
+.cafe
+  color: #4B1C16
 figcaption
   font-weight: normal
 
@@ -80,7 +96,7 @@ figcaption
   @media screen and (max-width: 767px)
     background-size: cover 
     margin-inline: -2.4rem
-    margin-right: -1rem
+    margin-right: -2rem
     margin-left: -2rem
 .fondo5
   background: url('../assets/curso/temas/Tema5/fondo5.png')
@@ -124,8 +140,9 @@ figcaption
   background-size: 100% 100%
   background-repeat: no-repeat
   background-position: center 
-  @media screen and (max-width: 992px)
+  @media screen and (max-width: 767px)
     margin-inline: -1.4rem
+    border-radius: 20px
 .fondoblanco
   background-color: #fff
   border-radius: 20px
@@ -155,7 +172,7 @@ figcaption
   @media screen and (max-width: 767px)
     background-size: cover 
     margin-inline: -2.4rem
-    margin-right: -1rem
+    margin-right: -2rem
     margin-left: -2rem
 .bg10
   background: url('../assets/curso/temas/Tema1/tarjeta1.png')

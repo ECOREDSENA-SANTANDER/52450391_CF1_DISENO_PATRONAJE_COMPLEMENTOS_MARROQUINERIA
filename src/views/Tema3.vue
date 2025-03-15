@@ -61,7 +61,7 @@
           h3.bg2.py-2.w-card-text.text-white Generación de alternativas
     
     .row.justify-content-center.mb-5(data-aos="fade-down")
-      .col-lg-4.col-sm-8
+      .col-lg-4.col-sm-8.col-9
         img(src='@/assets/curso/temas/Tema3/img06.png', alt='')
       .col-lg-8
         .row.justify-content-center.align-items-center.mb-1.p-4.bg3
@@ -285,6 +285,7 @@
               a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/Anexo1_ Ficha técnica del producto.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-download
+              .py-1
       
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12

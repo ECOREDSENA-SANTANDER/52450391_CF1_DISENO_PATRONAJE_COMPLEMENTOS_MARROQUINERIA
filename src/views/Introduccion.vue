@@ -11,9 +11,9 @@
     .row.fondo1.align-items-center.p-4(data-aos="fade-down")
       .col-lg-12.col-12.px-lg-5.px-4
         .row.justify-content-center.align-items-center.mb-3(data-aos="fade-left")
-          .col-lg-5.fondo2.p-3
+          .col-lg-5.fondo2.p-3.col-md-9
             p.p-4 El diseño, entendido como una herramienta estratégica, fortalece la competitividad de una organización, su desarrollo implica un proceso estructurado que incluye análisis, planificación y ejecución, con el objetivo de responder eficazmente a las necesidades del usuario, equilibrando lo que busca el cliente con la propuesta de la empresa.
-          .col-lg-3
+          .col-lg-3.col-md-7
             img(src='@/assets/curso/img01.png', alt='')
           .col-lg-4
             p Todo proceso de diseño parte de la identificación de una necesidad o problema. A partir de esta premisa, se analiza y procesa la información obtenida, especialmente en estudios de mercado, para guiar el desarrollo del proyecto.
