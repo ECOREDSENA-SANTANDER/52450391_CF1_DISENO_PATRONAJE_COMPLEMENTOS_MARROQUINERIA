@@ -100,7 +100,7 @@ export default {
             },
             {
               id: 'b',
-              texto: 'falso',
+              texto: 'Falso',
               esCorrecta: false,
             },
           ],
