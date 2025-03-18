@@ -243,17 +243,17 @@
                 p Es un papel de gran resistencia, que ayuda a dar ciertas formas a los productos, especialmente cuando hay formas curvas y se busca darle un mejor acabado a la pieza.
 
 
-      .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+      .row.justify-content-start.mb-5(data-aos="zoom-in-left")
         .col-sm-12.col-lg-12
-          .d-flex.align-items-center.mt-4
+          .d-flex.align-items-center.mt-5
             img.w-card-icon(src="@/assets/curso/temas/Tema1/ico2.svg")
             h3.bg2.py-2.w-card-text.text-white Cálculo de costos para las empresas de calzado y marroquinería
       p Es un proceso fundamental que permite determinar el costo unitario de los productos mediante la identificación y asignación de los costos directos e indirectos de producción; incluye la gestión de materias primas, la medición de la mano de obra, los costos indirectos de fabricación y la elaboración de presupuestos, facilitando la toma de decisiones estratégicas para mejorar la rentabilidad, sostenibilidad y competitividad de las empresas en este sector.
 
-      .row.justify-content-center.mb-2(data-aos="flip-up")
+      .row.justify-content-center.mb-4(data-aos="flip-up")
         .col-lg-12.col-12
-          .tarjeta.fondolink2.p-4.mb-0
-            .row.justify-content-around.align-items-center.p-4
+          .tarjeta.fondolink2.mb-0
+            .row.justify-content-around.align-items-center.p-2
               .col-3.col-sm-2.col-lg-1
                 img(src="@/assets/curso/temas/Tema3/web.svg")
               .col-11
