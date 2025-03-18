@@ -254,7 +254,7 @@
         .col-lg-12.col-12
           .tarjeta.fondolink2.mb-0
             .row.justify-content-around.align-items-center.p-2
-              .col-3.col-sm-2.col-lg-1
+              .col-4.col-sm-2.col-lg-1
                 img(src="@/assets/curso/temas/Tema3/web.svg")
               .col-11
                 .row.justify-content-between.align-items-end.mb-3
