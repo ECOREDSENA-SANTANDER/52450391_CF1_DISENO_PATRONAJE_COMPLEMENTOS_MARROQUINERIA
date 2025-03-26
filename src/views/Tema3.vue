@@ -58,7 +58,7 @@
       .col-sm-12.col-lg-7
         .d-flex.align-items-center.mt-4
           img.w-card-icon(src="@/assets/curso/temas/Tema3/img05.svg")
-          h3.bg2.py-2.w-card-text.text-white Generación de alternativas
+          h3.bg2.py-2.w-card-text2.text-white Generación de alternativas
     
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-4.col-sm-8.col-9
@@ -74,7 +74,7 @@
       .col-sm-12.col-lg-7
         .d-flex.align-items-center.mt-4
           img.w-card-icon(src="@/assets/curso/temas/Tema3/img07.svg")
-          h3.bg2.py-2.w-card-text.text-white Selección de alternativas de diseño
+          h3.bg2.py-2.w-card-text2.text-white Selección de alternativas de diseño
     
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-down")
       .col-lg-5
@@ -239,7 +239,7 @@
       .col-sm-12.col-lg-7
         .d-flex.align-items-center.mt-4
           img.w-card-icon(src="@/assets/curso/temas/Tema3/img07.svg")
-          h3.bg2.py-2.w-card-text.text-white Evaluación y estandarización del diseño y producción
+          h3.bg2.py-2.w-card-text2.text-white Evaluación y estandarización del diseño y producción
 
 
     .row.justify-content-center.align-items-center(data-aos="fade-left").mb-4

@@ -95,7 +95,7 @@
         .col-sm-12.col-lg-7
           .d-flex.align-items-center.mt-4
             img.w-card-icon(src="@/assets/curso/temas/Tema1/ico1.svg")
-            h3.bg2.py-2.w-card-text.text-white Materiales
+            h3.bg2.py-2.w-card-text2.text-white Materiales
       p La cadena de valor de la marroquinería requiere de una combinación de materias primas e insumos esenciales para el desarrollo de productos de alta calidad. Entre ellos, el cuero es la principal materia prima, aunque también se emplean materiales alternativos según las necesidades del diseño y el mercado.
 
 
@@ -247,7 +247,7 @@
         .col-sm-12.col-lg-12
           .d-flex.align-items-center.mt-5
             img.w-card-icon(src="@/assets/curso/temas/Tema1/ico2.svg")
-            h3.bg2.py-2.w-card-text.text-white Cálculo de costos para las empresas de calzado y marroquinería
+            h3.bg2.py-2.w-card-text2.text-white Cálculo de costos para las empresas de calzado y marroquinería
       p Es un proceso fundamental que permite determinar el costo unitario de los productos mediante la identificación y asignación de los costos directos e indirectos de producción; incluye la gestión de materias primas, la medición de la mano de obra, los costos indirectos de fabricación y la elaboración de presupuestos, facilitando la toma de decisiones estratégicas para mejorar la rentabilidad, sostenibilidad y competitividad de las empresas en este sector.
 
       .row.justify-content-center.mb-4(data-aos="flip-up")
@@ -303,7 +303,7 @@
         .col-sm-12.col-lg-7
           .d-flex.align-items-center.mt-4
             img.w-card-icon(src="@/assets/curso/temas/Tema1/ico5.svg")
-            h3.bg2.py-2.w-card-text.text-white Insumos
+            h3.bg2.py-2.w-card-text2.text-white Insumos
     
       .row.justify-content-center.align-items-center(data-aos="fade-left").mb-4
         .col-lg-12.col-md-12.col-12
