@@ -13,17 +13,17 @@
       .col-lg-12
         AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--azull")
           .row.justify-content-center.align-items-start(titulo="Desarrollo del producto o prototipo")
-            .col-md-2
+            .col-md-2.col-6
               img(src='@/assets/curso/temas/Tema4/img01.png', alt='')
             .col-md-10
               p Con los moldes listos, se inicia el proceso productivo para la obtención del producto o prototipo, asegurando la aplicación de los parámetros definidos en la fase de evaluación previa. Este proceso debe cumplir con estándares de calidad, funcionalidad y viabilidad productiva, garantizando que el resultado final se ajuste a los requerimientos establecidos.
           .row.justify-content-center.align-items-start(titulo="Evaluación del producto o prototipo")
-            .col-md-2
+            .col-md-2.col-6
               img(src='@/assets/curso/temas/Tema4/img02.png', alt='')
             .col-md-10
               p La evaluación del producto o prototipo es una fase clave para determinar la efectividad del proceso de producción, en esta etapa se realizan controles de calidad y análisis funcionales para verificar si el desarrollo se ajusta a los parámetros establecidos. De ser necesario, se procede a realizar ajustes o rediseños que optimicen el producto antes de su producción en serie o lanzamiento al mercado.
           .row.justify-content-center.align-items-start(titulo="Manejo e interpretación de la información en el proceso de diseño")
-            .col-md-2
+            .col-md-2.col-6
               img(src='@/assets/curso/temas/Tema4/img03.png', alt='')
             .col-md-10
               p El proceso de diseño de un producto o colección requiere un análisis riguroso de la información disponible en diversas fuentes, tales como bocetos, revistas, catálogos, estudios de tendencias y referencias históricas. La conceptualización del diseño parte de una inspiración que puede provenir de diferentes experiencias, como viajes, literatura, arte o referencias culturales, las cuales permiten definir una línea creativa coherente con los objetivos del proyecto.

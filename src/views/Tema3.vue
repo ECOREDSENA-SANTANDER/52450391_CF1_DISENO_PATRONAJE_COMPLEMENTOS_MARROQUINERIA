@@ -36,7 +36,7 @@
 
  
     .row.justify-content-center.mb-5(data-aos="fade-down")
-      .col-lg-4.col-md-8.mb-3.mb-md-0
+      .col-lg-4.col-md-6.mb-3.mb-md-0
         .row.px-2.pt-2.h-100
           .col-12.m-0.nav-holder2.align-items-center.px-0
             img(src="@/assets/curso/temas/Tema3/img03.png", alt="")
@@ -45,7 +45,7 @@
                 h4.mt-3.mb-3.text-white Carta de colores
                 p.px-4 Se elabora a partir de la investigación realizada, con el propósito de ofrecer una representación visual de la paleta cromática de la colección.
       
-      .col-lg-4.col-md-8.mb-3.mb-md-0
+      .col-lg-4.col-md-6.mb-3.mb-md-0
         .row.px-2.pt-2.h-100
           .col-12.m-0.nav-holder2.align-items-center.px-0
             img(src="@/assets/curso/temas/Tema3/img04.png", alt="")
@@ -77,7 +77,7 @@
           h3.bg2.py-2.w-card-text2.text-white Selección de alternativas de diseño
     
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-down")
-      .col-lg-5
+      .col-lg-5.col-md-9
         img(src='@/assets/curso/temas/Tema3/img08.png', alt='')
       .col-lg-7.bg4.p-4
         p La selección de alternativas de diseño se basa en el análisis de las necesidades del mercado y las tendencias actuales, asegurando que las propuestas cumplan con los requerimientos establecidos. Para ello, se consideran aspectos clave como coherencia formal, estética, elementos conceptuales, características estructurales y funcionales del producto.

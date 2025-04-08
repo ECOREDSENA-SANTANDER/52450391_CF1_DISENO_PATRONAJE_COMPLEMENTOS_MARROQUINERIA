@@ -60,6 +60,8 @@ figcaption
 
 .banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
   color: #212529
+  margin-left: 0.5rem
+
 .boton *, .boton--sm * 
   color: #fff
 .barra-avance__boton--regresar span 
@@ -98,6 +100,8 @@ figcaption
     margin-inline: -2.4rem
     margin-right: -2rem
     margin-left: -2rem
+
+
 .fondo5
   background: url('../assets/curso/temas/Tema5/fondo5.png')
   background-size: 100% 100%
@@ -138,11 +142,16 @@ figcaption
 .fondo2
   background: url('../assets/curso/fondo.png')
   background-size: 100% 100%
-  background-repeat: no-repeat
-  background-position: center 
+  background-position: cover
   @media screen and (max-width: 767px)
     margin-inline: -1.4rem
     border-radius: 20px
+
+.titulo-segundo:after 
+  border-left-color: #4b1c16
+
+
+
 .fondoblanco
   background-color: #fff
   border-radius: 20px
@@ -392,11 +401,11 @@ figcaption
     justify-content: center
     cursor: pointer
 .slyder-f__btn i 
-    font-size: 2rem
-    min-width: 50px
-    max-width: 50px
-    min-height: 50px
-    max-height: 50px
+    font-size: 1.5rem
+    min-width: 40px
+    max-width: 40px
+    min-height: 40px
+    max-height: 40px
     flex: auto
     border-radius: 50%
     background-color: #0058C9
@@ -415,3 +424,7 @@ figcaption
 .fa-chevron-left
   --fa: "\f053"
   color: #fff
+
+.izqtxt
+  margin-left: 1.5rem
+  

@@ -79,7 +79,7 @@
       #t_1_1.titulo-segundo.mb-5
         h2 1.1  Materiales e insumos utilizados en marroquinería, clases y características
 
-      .row.justify-content-center.align-items-center.mb-5
+      .row.justify-content-center.align-items-center.mb-3
         .col-lg-5.col-12
           img(src='@/assets/curso/temas/Tema1/img03.png', alt='')
         .col-lg-7 
@@ -161,9 +161,9 @@
       p Es un material que presenta una base textil a la cual se le aplica una capa de sintético ya sea de PV o PU. Entre estos materiales se encuentran:
       
       .tarjeta--container.row(data-aos="zoom-in-left")
-        .col-md-12.tarjeta.bg10.p-5.col-lg-6
+        .col-md-6.tarjeta.bg10.p-5.col-lg-6
           .row.align-items-end.mb-4
-            .col-3.col-lg-2.col-md-2
+            .col-3.col-lg-2.col-md-3
               img(src='@/assets/curso/temas/Tema1/ico3.svg', alt='')
             .col-lg-5.col-9
               .bg-color.w-fit.p-2.px-4
@@ -174,11 +174,11 @@
             span Material sintético PU (poliuretano)
           figure
             img(src='@/assets/curso/temas/Tema1/img05.png', alt='La imagen presenta un material sintético de poliuretano (PU) en tonos marrón, con una textura diferenciada entre la parte superior e inferior. La zona superior exhibe un patrón con acabado texturizado, mientras que la inferior tiene una apariencia más lisa. Una línea de puntadas separa ambas secciones, resaltando el contraste entre las superficies.')
-        .col-md-12.tarjeta.bg11.p-5.col-lg-6
+        .col-md-6.tarjeta.bg11.p-5.col-lg-6
           .row.align-items-end.mb-4
-            .col-3.col-lg-2.col-md-2
+            .col-3.col-lg-2.col-md-3
               img(src='@/assets/curso/temas/Tema1/ico4.svg', alt='')
-            .col-lg-7.col-9
+            .col-lg-7.col-9.col-md-9
               .bg-color.w-fit.p-2.px-4
                 h3.mb-0.text-white PVC (policloruro de vinilo)
           p Es un material termoplástico rígido y flexible, el cual es similar al cuero, se utiliza en marroquinería y tapicería.
@@ -195,10 +195,10 @@
       .py-2
       p Este tipo de material se utiliza en marroquinería ya sea para el desarrollo de piezas exteriores o interiores en los productos. Entre ellos están las lonas, las sedas y forros, así:
 
-      .row.justify-content-center.align-items-center.mb-5.fondo9
+      .row.justify-content-center.align-items-center.mb-0.fondo9
         .col-lg-10
-          .row.justify-content-center.align-items-center.mb-5
-            .col-lg-6.col-8
+          .row.justify-content-center.align-items-center.mb-2
+            .col-lg-6.col-8.col-md-6
               img(src='@/assets/curso/temas/Tema1/img04.png', alt='')
             .col-lg-5.col-11
               ul.lista-ul
@@ -281,9 +281,9 @@
       .row.justify-content-center.align-items-center.mb-4
         .col-lg-9
           .tarjeta--container.row.ali(data-aos="zoom-in-left")
-            .col-lg-5.tarjeta.bg12.p-5.col-md-12
+            .col-lg-5.tarjeta.bg12.p-5.col-md-6.d-none.d-lg-block
               img(src='@/assets/curso/temas/Tema1/img08.png', alt='')
-            .col-lg-7.tarjeta.bg13.p-5
+            .col-lg-7.tarjeta.bg13.p-5.col-md-12
               .row.align-items-end
                 .col-12.col-md-12
                   p Determinar con precisión los costos de producción no solo facilita la toma de decisiones estratégicas en la industria, sino que también permite abordar aspectos clave como la contabilidad de costos, la clasificación y los sistemas de costeo, así como la gestión de materias primas, los costos de mano de obra y la asignación de costos indirectos de fabricación. Esto proporciona herramientas fundamentales para optimizar el uso de materiales, minimizar desperdicios y calcular de manera precisa el costo unitario de los productos, lo que resulta esencial para fortalecer la competitividad y garantizar la sostenibilidad empresarial en un sector que enfrenta constantes desafíos en materia de formalización y eficiencia productiva.

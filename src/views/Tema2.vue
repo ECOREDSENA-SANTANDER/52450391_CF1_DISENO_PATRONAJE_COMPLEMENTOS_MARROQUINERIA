@@ -10,7 +10,7 @@
     p Para llevar a cabo el proceso de patronaje, es fundamental contar con los siguientes materiales y elementos:
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
-      .col-lg-3.col-8.mb-4.col-sm-6
+      .col-lg-3.col-8.mb-4.col-md-6
         img(src='@/assets/curso/temas/Tema2/img01.png', alt='')
       .col-lg-9
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
