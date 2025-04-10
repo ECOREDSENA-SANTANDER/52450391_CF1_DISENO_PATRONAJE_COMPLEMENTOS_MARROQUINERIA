@@ -9,7 +9,7 @@
     
       .row.justify-content-center.align-items-center(data-aos="fade-left").mb-4
         .col-lg-12.col-md-12.col-12
-          .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
+          .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5
             .bloque-texto-g__img(
               :style="{'background-image': `url(${require('@/assets/curso/temas/Tema1/img01.png')})`}"
             )
@@ -21,13 +21,13 @@
               p Desde los orígenes de la producción de artículos en cuero, los procesos han evolucionado desde técnicas artesanales hasta la incorporación de tecnologías avanzadas; en la actualidad, la innovación ha permitido la implementación de procesos productivos industrializados, con el uso de maquinaria de última generación y sistemas computarizados que optimizan la precisión y calidad de los productos.
               br
               br
-        
+       
       .row.justify-content-center.align-items-center(data-aos="fade-left").mb-4
         .col-lg-10.col-md-12.col-12  
           p Para comprender el diseño y desarrollo de complementos en marroquinería, es fundamental conocer la siguiente terminología especializada:
       
       .row.justify-content-center.align-items-center(data-aos="fade-left").mb-4
-        .col-lg-3.col-8.col-sm-6
+        .col-lg-3.col-8.col-sm-5
           img(src='@/assets/curso/temas/Tema1/img02.png', alt='')
         .col-lg-7
           .row.justify-content-center.align-items-center.mb-5.fondoslyder.p-4
@@ -36,42 +36,42 @@
               SlyderA(tipo="b").fondoblanco.p-4
                 .row.justify-content-center.align-items-center
                   .col-md-11
-                    h5 Marroquinería
+                    h4 Marroquinería
                     p Es el arte y la técnica de transformar el cuero en productos funcionales y estéticos, abarcando desde artículos de pequeña escala, como billeteras y cinturones, hasta piezas de gran formato, como maletines y equipaje.
                 .row.justify-content-center.align-items-center
                   .col-md-11
-                    h5 Diseño
+                    h4 Diseño
                     p Es una herramienta estratégica que potencia la competitividad de una marca u organización, este proceso implica diversas fases, que incluyen el análisis de tendencias y necesidades del usuario, la planificación estructurada del producto y su ejecución, garantizando una integración eficiente entre las expectativas del cliente y la propuesta de valor de la empresa.
              
                 .row.justify-content-center.align-items-center
                   .col-md-11
-                    h5 Tendencias
+                    h4 Tendencias
                     p Guían el desarrollo de nuevas colecciones y están influenciadas por diversas fuentes de inspiración, como el arte, la naturaleza, la cultura y los cambios en el estilo de vida del consumidor.
                 .row.justify-content-center.align-items-center
                   .col-md-11
-                    h5 Colección
+                    h4 Colección
                     p Es un conjunto de productos diseñados para una temporada específica, creados bajo lineamientos de moda y mercado previamente definidos; su desarrollo responde a criterios de coherencia en términos de estética, funcionalidad y estilo, asegurando una identidad visual unificada.
                 
                 .row.justify-content-center.align-items-center
                   .col-md-11
-                    h5 Línea de productos
+                    h4 Línea de productos
                     p Está compuesta por artículos de la misma categoría, que comparten características funcionales y estilísticas, puede abarcar diferentes tamaños, materiales, colores y rangos de precio, adaptándose a un público objetivo y una ocasión de uso específicos. Ejemplos incluyen líneas infantiles, femeninas, masculinas, deportivas o escolares.
                 
                 .row.justify-content-center.align-items-center
                   .col-md-11
-                    h5 #[em Mood board]
+                    h4 #[em Mood board]
                     p Es una herramienta visual utilizada en el proceso de diseño, que permite organizar y representar de manera creativa la investigación conceptual de una colección. A través de imágenes, texturas, colores y referencias estilísticas, facilita la materialización de una propuesta coherente y alineada con las tendencias del mercado.
                 .row.justify-content-center.align-items-center
                   .col-md-11
-                    h5 Materiales
+                    h4 Materiales
                     p Son la materia prima esencial para la fabricación de productos en marroquinería; incluyen diferentes tipos de cuero (#[em pleno flor, nobuk,] gamuza, entre otros) y materiales complementarios como textiles, sintéticos, herrajes y adhesivos, que aportan estructura y funcionalidad a cada diseño.
                 .row.justify-content-center.align-items-center
                   .col-md-11
-                    h5 Insumos
+                    h4 Insumos
                     p Son los elementos procesados o semielaborados que intervienen en la fabricación del producto final, estos pueden incluir forros, refuerzos, cremalleras, hilos, adhesivos y otros componentes necesarios para la confección del artículo.
                 .row.justify-content-center.align-items-center
                   .col-md-11
-                    h5 Herramientas
+                    h4 Herramientas
                     p En marroquinería comprenden todos los instrumentos utilizados en el proceso de fabricación y ensamblaje del cuero y sus complementos. Entre ellas se encuentran cuchillas, cúteres, sacabocados, matrices de estampado, prensas, máquinas de coser especializadas y herramientas de acabado, esenciales para garantizar precisión y calidad en la manufactura.
 
 
@@ -84,7 +84,7 @@
           img(src='@/assets/curso/temas/Tema1/img03.png', alt='')
         .col-lg-7 
           .row.justify-content-center.align-items-center
-            .col-lg-2.col-3.mb-2
+            .col-lg-2.col-3.mb-2.d-none.d-lg-block
               img(src='@/assets/curso/temas/Tema1/camisa.svg', alt='')
             .col-lg-10.bg3.p-2
               p.p-2 Dentro de la marroquinería, se emplean diversos materiales que permiten la fabricación de productos en cuero, materiales sintéticos, lonas, textiles y otros compuestos especializados.
@@ -166,7 +166,7 @@
             .col-3.col-lg-2.col-md-3
               img(src='@/assets/curso/temas/Tema1/ico3.svg', alt='')
             .col-lg-5.col-9
-              .bg-color.w-fit.p-2.px-4
+              .bg-color.w-fit.p-1.px-4
                 h3.mb-0.text-white PU (poliuretano)
           p Es un polímero parecido al cuero en cuanto a su parte formal. Es flexible y se utiliza en calzado, tapicería y marroquinería.
           .titulo-sexto.color-acento-contenido
@@ -179,7 +179,7 @@
             .col-3.col-lg-2.col-md-3
               img(src='@/assets/curso/temas/Tema1/ico4.svg', alt='')
             .col-lg-7.col-9.col-md-9
-              .bg-color.w-fit.p-2.px-4
+              .bg-color.w-fit.p-1.px-4
                 h3.mb-0.text-white PVC (policloruro de vinilo)
           p Es un material termoplástico rígido y flexible, el cual es similar al cuero, se utiliza en marroquinería y tapicería.
           .titulo-sexto.color-acento-contenido
@@ -202,7 +202,7 @@
               img(src='@/assets/curso/temas/Tema1/img04.png', alt='')
             .col-lg-5.col-11
               ul.lista-ul
-                li
+                li.mb-4
                   i.fas.fa-check-circle
                   | #[b Lonas:] tela resistente de algodón puro utilizado en marroquinería, dependiendo su uso se agregan refuerzos.
                 li
@@ -288,7 +288,7 @@
                 .col-12.col-md-12
                   p Determinar con precisión los costos de producción no solo facilita la toma de decisiones estratégicas en la industria, sino que también permite abordar aspectos clave como la contabilidad de costos, la clasificación y los sistemas de costeo, así como la gestión de materias primas, los costos de mano de obra y la asignación de costos indirectos de fabricación. Esto proporciona herramientas fundamentales para optimizar el uso de materiales, minimizar desperdicios y calcular de manera precisa el costo unitario de los productos, lo que resulta esencial para fortalecer la competitividad y garantizar la sostenibilidad empresarial en un sector que enfrenta constantes desafíos en materia de formalización y eficiencia productiva.
             .py-2
-        .col-lg-3.col-8.col-sm-6
+        .col-lg-3.col-8.col-sm-5
           img(src='@/assets/curso/temas/Tema1/img07.png', alt='')
       .row
         .col-lg-12
@@ -325,7 +325,7 @@
           p A continuación, se exponen algunos insumos:
 
       .row.justify-content-center.align-items-center.mb-5
-        .col-lg-12.col-12.col-sm-12
+        .col-lg-12.col-12.col-md-12
           SlyderF(columnas="col-lg-3 col-xl-4 col-md-8").mb-5
             .tarjeta.color.p-4
               .row.justify-content-center

@@ -23,7 +23,7 @@
     .row.justify-content-center.align-items-center(data-aos="fade-left").mb-4
       .col-lg-7.bg1.p-4
         ul.lista-ul
-          li
+          li.mb-4
             i.fas.fa-check-circle
             | #[b Investigación primaria:] se basa en la información que el diseñador obtiene directamente a través de bocetos, fotografías, videos y otros recursos visuales.
           li
@@ -204,7 +204,7 @@
         .col-lg-9
           p Esta clasificación facilita la identificación de la mejor alternativa según el propósito y funcionalidad esperada del producto.
       .row.justify-content-center.align-items-center.mb-0(data-aos="fade-down")
-        .col-lg-3.col-8.mb-3.col-sm-6
+        .col-lg-3.col-8.mb-3.col-sm-5
           img(src='@/assets/curso/temas/Tema3/img09.png', alt='')
         .col-lg-9
           .row.justify-content-center.align-items-center
@@ -238,13 +238,13 @@
     .row.justify-content-start.mb-4(data-aos="zoom-in-left")
       .col-sm-12.col-lg-7
         .d-flex.align-items-center.mt-4
-          img.w-card-icon(src="@/assets/curso/temas/Tema3/img07.svg")
+          img.w-card-icon(src="@/assets/curso/temas/Tema3/img05.svg")
           h3.bg2.py-2.w-card-text2.text-white Evaluación y estandarización del diseño y producción
 
 
     .row.justify-content-center.align-items-center(data-aos="fade-left").mb-4
       .col-lg-12.col-md-12.col-12
-        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
+        .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/temas/Tema3/img10.png')})`}"
           )
@@ -280,11 +280,11 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               p  A continuación, puede descargar el anexo que contiene el formato de la ficha técnica del producto. 
-              h3.mb-1 Ficha técnica del producto  
+              h4.mb-1.cafe Ficha técnica del producto  
             .col-sm-auto.col-lg-2
-              a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/Anexo1_ Ficha técnica del producto.pdf')" target="_blank")
+              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo1_ Ficha técnica del producto.pdf')" target="_blank")
                 span Descargar
-                i.fas.fa-download
+                i.fas.fa-file-arrow-down
 
       
     .row.justify-content-center.align-items-center.mb-5

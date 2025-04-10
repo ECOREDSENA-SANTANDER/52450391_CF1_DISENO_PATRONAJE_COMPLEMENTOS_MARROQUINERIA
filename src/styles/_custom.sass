@@ -42,6 +42,29 @@
     transform: rotate(-15deg)
   
 
+.banner-principal
+  @media (max-width: $bp-max-md)
+    .tarjeta
+      background-image: url('../assets/curso/portada/fondo-banner-principal-movil.png') !important
+      background-repeat: no-repeat 
+      background-size: 100% 100%
+      background-position: cover
+    &__info
+      padding-top: 14% !important 
+    h1, p
+      color: $white
+
+.banner-principal  
+  @media (min-width: 768px) and (max-width: 1024px)
+    .tarjeta
+      background-image: url('../assets/curso/portada/fondo-banner-principal-tablet.png') !important
+      background-repeat: no-repeat 
+      background-size: 100% 100%
+      background-position: cover
+    &__info
+      padding-top: 8% !important 
+    h1, p
+      color: $white
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl
     --bs-gutter-x: 3.5rem  
   
@@ -146,11 +169,16 @@ figcaption
   @media screen and (max-width: 767px)
     margin-inline: -1.4rem
     border-radius: 20px
-
+.sinespacio 
+  margin-bottom: 0px
 .titulo-segundo:after 
   border-left-color: #4b1c16
 
+.tabs-c__header 
+  margin-bottom: 0px
 
+.tabs-c__tab--active 
+  font-weight: bold
 
 .fondoblanco
   background-color: #fff
@@ -341,6 +369,7 @@ figcaption
   -moz-transition-delay: 0.1s
   transition-delay: 0.1s
   background-color: #EADED2
+  color: #12263F !important
 .nav-holder2
   .text
     position: absolute

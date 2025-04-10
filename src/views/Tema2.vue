@@ -10,7 +10,7 @@
     p Para llevar a cabo el proceso de patronaje, es fundamental contar con los siguientes materiales y elementos:
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
-      .col-lg-3.col-8.mb-4.col-md-6
+      .col-lg-3.col-8.mb-4.col-md-5
         img(src='@/assets/curso/temas/Tema2/img01.png', alt='')
       .col-lg-9
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
@@ -26,6 +26,10 @@
           .row(titulo="Mina plata")
             .col-md-12.mb-4.mb-md-0
               p Este tipo de mina es ideal para marcar sobre materiales como cuero o sintético, ya que sus trazos son fáciles de remover. Se emplea para señalar líneas de corte de patrones y delimitar el doblez de algunas piezas, facilitando así la confección.
+      .row.justify-content-center.align-items-center.mb-2
+        .col-lg-12
+          img(src='@/assets/curso/temas/Tema2/linea.svg', alt='')
+
 
 </template>
 
