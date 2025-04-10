@@ -35,24 +35,25 @@
       p Toda esta información se va integrando en el cuaderno de bocetos, donde se anexan recortes, trazos y otros elementos gráficos. Posteriormente, esta recopilación sirve como base para la creación del #[em mood board] o panel de investigación; este panel permite interpretar y organizar la información inicial del cuaderno de bocetos, facilitando su representación en el panel de colores y el panel de texturas.
 
  
-    .row.justify-content-center.mb-5(data-aos="fade-down")
-      .col-lg-4.col-md-6.mb-3.mb-md-0
-        .row.px-2.pt-2.h-100
-          .col-12.m-0.nav-holder2.align-items-center.px-0
-            img(src="@/assets/curso/temas/Tema3/img03.png", alt="")
-            .text.p-2
-              .row.text-center.px-1.pt-1.mt-md-4.pt-md-0.mt-lg-3.mt-xl-4
-                h4.mt-3.mb-3.text-white Carta de colores
-                p.px-4 Se elabora a partir de la investigación realizada, con el propósito de ofrecer una representación visual de la paleta cromática de la colección.
+    .row.justify-content-center.cursor-pointer.mb-5(data-aos="fade-down")
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+        .crd_hover_txt(@mouseover="mostrarIndicador = false")
+          .indicador--hover(v-if="mostrarIndicador")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/temas/Tema3/img03.png", alt="")
+          .crd_hover_txt--body.text-center 
+            h4.mb-3 Carta de colores
+            p.mb-0  Se elabora a partir de la investigación realizada, con el propósito de ofrecer una representación visual de la paleta cromática de la colección.
       
-      .col-lg-4.col-md-6.mb-3.mb-md-0
-        .row.px-2.pt-2.h-100
-          .col-12.m-0.nav-holder2.align-items-center.px-0
-            img(src="@/assets/curso/temas/Tema3/img04.png", alt="")
-            .text.p-2
-              .row.text-center.px-1.pt-1.mt-md-4.pt-md-0.mt-lg-3.mt-xl-4
-                h4.mt-3.mb-3.text-white Carta de materiales
-                p.px-4 Su objetivo es vincular los materiales seleccionados con la gama de colores definida, considerando sus texturas y características para garantizar coherencia en el diseño.
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+        .crd_hover_txt
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/temas/Tema3/img04.png", alt="")
+          .crd_hover_txt--body.text-center 
+            h4.mb-3 Carta de materiales
+            p.mb-0 Su objetivo es vincular los materiales seleccionados con la gama de colores definida, considerando sus texturas y características para garantizar coherencia en el diseño.
 
     .row.justify-content-start.mb-4(data-aos="zoom-in-left")
       .col-sm-12.col-lg-7
@@ -348,6 +349,7 @@ export default {
   name: 'Tema3',
   data: () => ({
     // variables de vue
+    mostrarIndicador: true,
   }),
   mounted() {
     this.$nextTick(() => {
