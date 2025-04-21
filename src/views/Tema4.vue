@@ -13,9 +13,9 @@
       .col-lg-12
         AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--azull")
           .row.justify-content-center.align-items-start(titulo="Desarrollo del producto o prototipo")
-            .col-md-4.col-6
-              img(src='@/assets/curso/temas/Tema4/img01.png', alt='')
-            .col-md-8
+            .col-md-4.col-6.col-lg-2
+              img(src='@/assets/curso/temas/Tema4/img01.svg', alt='')
+            .col-md-8.col-lg-10
               p Con los moldes listos, se inicia el proceso productivo para la obtención del producto o prototipo, asegurando la aplicación de los parámetros definidos en la fase de evaluación previa. Este proceso debe cumplir con estándares de calidad, funcionalidad y viabilidad productiva, garantizando que el resultado final se ajuste a los requerimientos establecidos.
           .row.justify-content-center.align-items-start(titulo="Evaluación del producto o prototipo")
             .col-md-4.col-6
