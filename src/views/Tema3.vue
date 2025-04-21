@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span 3
       h1 Inspiración para el diseño
-
+    
     .row.justify-content-center.align-items-center(data-aos="fade-left").mb-4
       .col-lg-12.col-md-12.col-12
         .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
@@ -22,13 +22,13 @@
 
     .row.justify-content-center.align-items-center(data-aos="fade-left").mb-4
       .col-lg-7.bg1.p-4
-        ul.lista-ul
-          li.mb-4
+        ul.lista-ul.mb-0
+          li.mb-0.d-flex
             i.fas.fa-check-circle
-            | #[b Investigación primaria:] se basa en la información que el diseñador obtiene directamente a través de bocetos, fotografías, videos y otros recursos visuales.
-          li
+            p #[b Investigación primaria:] se basa en la información que el diseñador obtiene directamente a través de bocetos, fotografías, videos y otros recursos visuales.
+          li.mb-0.d-flex
             i.fas.fa-check-circle
-            | #[b Investigación secundaria:] se apoya en estudios previos, documentos, revistas y otras fuentes ya existentes.
+            p.mb-0 #[b Investigación secundaria:] se apoya en estudios previos, documentos, revistas y otras fuentes ya existentes.
       .col-lg-5 
         img(src='@/assets/curso/temas/Tema3/img02.png', alt='')
 
@@ -247,7 +247,7 @@
       .col-lg-12.col-md-12.col-12
         .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/temas/Tema3/img10.png')})`}"
+            :style="{'background-image': `url(${require('@/assets/curso/temas/Tema3/img11.png')})`}"
           )
           .bloque-texto-g__texto.p-4
             br

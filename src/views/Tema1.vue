@@ -202,14 +202,17 @@
               img(src='@/assets/curso/temas/Tema1/img04.png', alt='')
             .col-lg-5.col-11
               ul.lista-ul
-                li.mb-4
+                li.mb-0.d-flex
                   i.fas.fa-check-circle
-                  | #[b Lonas:] tela resistente de algodón puro utilizado en marroquinería, dependiendo su uso se agregan refuerzos.
-                li
+                  p #[b Lonas:] tela resistente de algodón puro utilizado en marroquinería, dependiendo su uso se agregan refuerzos.
+                li.d-flex.mb-0
                   i.fas.fa-check-circle
-                  | #[b Sedas y forros:]  materiales internos más livianos que la tela base y el material externo, con una textura suave y agradable al tacto como:
-                li
+                  p #[b Sedas y forros:]  materiales internos más livianos que la tela base y el material externo, con una textura suave y agradable al tacto como:
+                li.d-flex.mb-0
+                  i.fas.fa-minus
                   p #[b - Tafeta de acetato:] tela artificial fabricada con hilos de fibra de acetato de celulosa. Se utiliza en el desarrollo de forros para marroquinería fina, pues no destiñe, no se arruga, ni se encoge.
+                li.d-flex.mb-0
+                  i.fas.fa-minus
                   p #[b - Tafeta de #[em nylon]:] tela de material sintético, es elástica y fácil de lavar, no es absorbente, seca rápido y recupera su forma con facilidad; se utiliza para el desarrollo de forros de carteras especialmente.
 
       .row.justify-content-start(data-aos="zoom-in-left")
@@ -326,7 +329,7 @@
 
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-12.col-12.col-md-12
-          SlyderF(columnas="col-lg-3 col-xl-4 col-md-8").mb-5
+          SlyderF(columnas="col-lg-3 col-xl-4 col-md-12").mb-5
             .tarjeta.color.p-4
               .row.justify-content-center
                 .col-12
