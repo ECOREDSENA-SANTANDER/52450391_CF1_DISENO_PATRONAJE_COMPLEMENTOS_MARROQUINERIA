@@ -168,7 +168,7 @@
               .col-lg-12
                 h5 Bolso bag o barril
               .col-lg-12
-                img(src='@/assets/curso/temas/Tema3/balde.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/Tema3/barril.png', alt='Texto que describa la imagen')
 
 
           .tarjeta.fondotarjeta.p-4(x="64%" y="12%" numero="+")
