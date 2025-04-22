@@ -173,7 +173,7 @@
             h5 Figura 4. 
             span Material sintético PU (poliuretano)
           figure
-            img(src='@/assets/curso/temas/Tema1/img05.png', alt='La imagen presenta un material sintético de poliuretano (PU) en tonos marrón, con una textura diferenciada entre la parte superior e inferior. La zona superior exhibe un patrón con acabado texturizado, mientras que la inferior tiene una apariencia más lisa. Una línea de puntadas separa ambas secciones, resaltando el contraste entre las superficies.')
+            img.mb-3(src='@/assets/curso/temas/Tema1/img05.png', alt='La imagen presenta un material sintético de poliuretano (PU) en tonos marrón, con una textura diferenciada entre la parte superior e inferior. La zona superior exhibe un patrón con acabado texturizado, mientras que la inferior tiene una apariencia más lisa. Una línea de puntadas separa ambas secciones, resaltando el contraste entre las superficies.')
         .col-md-6.tarjeta.bg11.p-5.col-lg-6
           .row.align-items-end.mb-4
             .col-3.col-lg-2.col-md-3
@@ -186,7 +186,7 @@
             h5 Figura 5. 
             span Material sintético PVC
           figure
-            img(src='@/assets/curso/temas/Tema1/img06.png', alt='La imagen presenta un material sintético de PVC en color rojo, con una textura superficial irregular que genera un efecto rugoso. El acabado refleja la luz de manera desigual, resaltando variaciones en el tono y la apariencia del material.')
+            img.mb-3(src='@/assets/curso/temas/Tema1/img06.png', alt='La imagen presenta un material sintético de PVC en color rojo, con una textura superficial irregular que genera un efecto rugoso. El acabado refleja la luz de manera desigual, resaltando variaciones en el tono y la apariencia del material.')
 
       .row.justify-content-start(data-aos="zoom-in-left")
         .col-sm-12.col-lg-5
@@ -283,8 +283,10 @@
 
       .row.justify-content-center.align-items-center.mb-4
         .col-lg-9
-          .tarjeta--container.row.ali(data-aos="zoom-in-left")
+          .tarjeta--container.row(data-aos="zoom-in-left")
             .col-lg-5.tarjeta.bg12.p-5.col-md-6.d-none.d-lg-block
+              br
+              br
               img(src='@/assets/curso/temas/Tema1/img08.png', alt='')
             .col-lg-7.tarjeta.bg13.p-5.col-md-12
               .row.align-items-end
