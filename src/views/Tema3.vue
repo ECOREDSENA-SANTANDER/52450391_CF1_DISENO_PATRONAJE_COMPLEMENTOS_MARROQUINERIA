@@ -237,7 +237,7 @@
 
 
     .row.justify-content-start.mb-4(data-aos="zoom-in-left")
-      .col-sm-12.col-lg-7
+      .col-sm-12.col-lg-12
         .d-flex.align-items-center.mt-4
           img.w-card-icon(src="@/assets/curso/temas/Tema3/img05.svg")
           h3.bg2.py-2.w-card-text2.text-white Evaluación y estandarización del diseño y producción
