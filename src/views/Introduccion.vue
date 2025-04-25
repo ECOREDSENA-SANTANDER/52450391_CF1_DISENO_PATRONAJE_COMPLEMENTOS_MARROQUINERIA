@@ -25,7 +25,10 @@
             figure
               .video
                 iframe(width="560" height="315" src="https://www.youtube.com/embed/0CxQZdA0Jko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-            figcaption Video: introducción - explorando el mundo de la marroquinería
+            figcaption Video: explorando el mundo de la marroquinería
+
+
+
           .py-4
 
 

@@ -270,7 +270,7 @@
 
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-8
-            img(src='@/assets/curso/temas/Tema3/tabla.svg', alt='La figura representa una ficha técnica de producto estructurada en diferentes secciones. En la parte superior, se incluyen campos para el nombre del artículo, colección, línea, fecha, dimensiones, colores y referencia, junto con un espacio destinado a la imagen del producto. Más abajo, se dispone un apartado para la descripción general. La ficha también contiene una sección de especificaciones, donde se detallan los materiales y colores del interior y exterior del producto. Se incorporan datos sobre la costura, especificando el tipo de hilo, calibre, color y si se realiza manualmente o con máquina. Finalmente, se incluyen espacios para registrar los herrajes, apliques y observaciones adicionales.')
+            img.mb-3(src='@/assets/curso/temas/Tema3/figura6.png', alt='La figura representa una ficha técnica de producto estructurada en diferentes secciones. En la parte superior, se incluyen campos para el nombre del artículo, colección, línea, fecha, dimensiones, colores y referencia, junto con un espacio destinado a la imagen del producto. Más abajo, se dispone un apartado para la descripción general. La ficha también contiene una sección de especificaciones, donde se detallan los materiales y colores del interior y exterior del producto. Se incorporan datos sobre la costura, especificando el tipo de hilo, calibre, color y si se realiza manualmente o con máquina. Finalmente, se incluyen espacios para registrar los herrajes, apliques y observaciones adicionales.')  
             figcaption Fuente: SENA
 
     .tarjeta.fondolink.p-4.mb-3
