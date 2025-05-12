@@ -240,7 +240,7 @@
                 p Es un material similar al cartón, elaborado con fibras de cuero recuperado que permite dar rigidez a ciertas partes del producto dando forma al mismo. Se encuentra en el mercado por láminas de 1.40 X 100 cm y en diferentes calibres.
             .row.justify-content-center.align-items-start(titulo="Salpa")
               .col-md-12
-                p Es un material similar a la odena, el cual permite reforzar piezas, dando soporte y consistencia a las formas requeridas en el producto. Está a diferencia de la odena, se encuentra en el mercado por rollos.
+                p Es un material similar a la odena, el cual permite reforzar piezas, dando soporte y consistencia a las formas requeridas en el producto. Esta a diferencia de la odena, se encuentra en el mercado por rollos.
             .row.justify-content-center.align-items-start(titulo="Cartón kraft")
               .col-md-12
                 p Es un papel de gran resistencia, que ayuda a dar ciertas formas a los productos, especialmente cuando hay formas curvas y se busca darle un mejor acabado a la pieza.
@@ -297,7 +297,7 @@
           img(src='@/assets/curso/temas/Tema1/img07.png', alt='')
       .row
         .col-lg-12
-          p La gestión de inventarios en la industria de marroquinería implica el control estratégico de materias primas, insumos y productos terminados, garantizando una rotación óptima de existencias para minimizar costos de almacenamiento y obsolescencia; así mismo es fundamental alinear el ciclo de vida del inventario con la demanda del mercado, considerando tendencias de moda, estacionalidad y capacidad productiva, lo que permite una gestión eficiente del stock y evita sobreproducción o desabastecimiento.
+          p La gestión de inventarios en la industria de marroquinería implica el control estratégico de materias primas, insumos y productos terminados, garantizando una rotación óptima de existencias para minimizar costos de almacenamiento y obsolescencia; así mismo es fundamental alinear el ciclo de vida del inventario con la demanda del mercado, considerando tendencias de moda, estacionalidad y capacidad productiva, lo que permite una gestión eficiente del #[em stock] y evita sobreproducción o desabastecimiento.
       .row.p-4.bg3
         .col-lg-12
           p Por otro lado, la gestión del talento humano en este sector requiere estrategias de capacitación y retención de personal altamente especializado, asegurando eficiencia en los procesos de diseño y confección. En conjunto, la gestión financiera debe enfocarse en la optimización de costos de producción, análisis de rentabilidad y flujo de caja para garantizar la sostenibilidad del negocio, integrando herramientas tecnológicas que permitan mejorar la toma de decisiones y la competitividad en el mercado.
@@ -466,7 +466,7 @@
                     .col-9.mb-2
                       h4.text-center.bg-color.p-2.text-white Velcro o cremallera de contacto
                     .col-10.mb-4 
-                      p.text-center.mb-0 Es un tipo de cierre de contacto, compuesto por dos partes: una áspera y otra suave y al unirlas generan el cierre. Se usa para cerrar billeteras, bolsos, etc. según el diseño del producto.
+                      p.text-center.mb-0 Es un tipo de cierre de contacto, compuesto por dos partes: una áspera y otra suave y al unirlas generan el cierre. Se usa para cerrar billeteras, bolsos, etc., según el diseño del producto.
 
 
 

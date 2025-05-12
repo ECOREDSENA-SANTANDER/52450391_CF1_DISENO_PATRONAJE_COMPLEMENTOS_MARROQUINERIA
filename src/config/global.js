@@ -109,7 +109,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/CF1_52450391_DU.pdf',
+        download: 'downloads/CF1_52450391_DU.zip',
       },
       {
         icono: 'fas fa-download',
@@ -155,7 +155,7 @@ export default {
     {
       termino: 'Curtido',
       significado:
-        ' proceso químico o vegetal que estabiliza la piel animal para su uso en la fabricación de productos de cuero.',
+        'proceso químico o vegetal que estabiliza la piel animal para su uso en la fabricación de productos de cuero.',
     },
     {
       termino: 'Diseño',
@@ -195,32 +195,32 @@ export default {
     {
       termino: '<i>Mood board</i>',
       significado:
-        ' Herramienta visual que organiza imágenes, colores y texturas para representar conceptualmente una colección de diseño.',
+        'herramienta visual que organiza imágenes, colores y texturas para representar conceptualmente una colección de diseño.',
     },
     {
       termino: 'Pigmento',
       significado:
-        ' Sustancia que aporta color a los materiales sin penetrar en su superficie, disponible en diferentes acabados.',
+        'sustancia que aporta color a los materiales sin penetrar en su superficie, disponible en diferentes acabados.',
     },
     {
       termino: 'Reata',
       significado:
-        'Tejido resistente utilizado en la confección de correas, cinturones y asas para bolsos y maletines.',
+        'tejido resistente utilizado en la confección de correas, cinturones y asas para bolsos y maletines.',
     },
     {
       termino: 'Salpa',
       significado:
-        ' Material elaborado con fibras de cuero recuperado, utilizado para reforzar y dar estructura a productos de marroquinería.',
+        'material elaborado con fibras de cuero recuperado, utilizado para reforzar y dar estructura a productos de marroquinería.',
     },
     {
       termino: 'Tafeta',
       significado:
-        'Tejido sintético o de acetato utilizado en forros internos de marroquinería por su suavidad y resistencia.',
+        'tejido sintético o de acetato utilizado en forros internos de marroquinería por su suavidad y resistencia.',
     },
     {
       termino: 'Tendencia',
       significado:
-        ' Influencia derivada de cambios en la moda, el arte o el estilo de vida, que guía el desarrollo de nuevas colecciones.',
+        'influencia derivada de cambios en la moda, el arte o el estilo de vida, que guía el desarrollo de nuevas colecciones.',
     },
   ],
   referencias: [
@@ -296,7 +296,7 @@ export default {
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'PENDIENTE ASIGNACIÓN',
+          nombre: 'Andrea Ardila Chaparro',
           cargo: 'Evaluadora para contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },
