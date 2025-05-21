@@ -22,7 +22,7 @@
               br
               br
        
-      .row.justify-content-center.align-items-center(data-aos="fade-left").mb-4
+      .row.justify-content-start.align-items-center(data-aos="fade-left").mb-4
         .col-lg-10.col-md-12.col-12  
           p Para comprender el diseño y desarrollo de complementos en marroquinería, es fundamental conocer la siguiente terminología especializada:
       
@@ -64,7 +64,7 @@
                 .row.justify-content-center.align-items-center
                   .col-md-11
                     h4 Materiales
-                    p Son la materia prima esencial para la fabricación de productos en marroquinería; incluyen diferentes tipos de cuero (#[em pleno flor, nobuk,] gamuza, entre otros) y materiales complementarios como textiles, sintéticos, herrajes y adhesivos, que aportan estructura y funcionalidad a cada diseño.
+                    p Son la materia prima esencial para la fabricación de productos en marroquinería; incluyen diferentes tipos de cuero (#[em plena flor, nobuk,] gamuza, entre otros) y materiales complementarios como textiles, sintéticos, herrajes y adhesivos, que aportan estructura y funcionalidad a cada diseño.
                 .row.justify-content-center.align-items-center
                   .col-md-11
                     h4 Insumos
@@ -158,7 +158,7 @@
         .col-sm-12.col-lg-5
           .d-flex.align-items-center.mt-3
             h3.bg5.py-2.w-card-text Sintético
-      p Es un material que presenta una base textil a la cual se le aplica una capa de sintético ya sea de PV o PU. Entre estos materiales se encuentran:
+      p Es un material que presenta una base textil a la cual se le aplica una capa de sintético, ya sea de PV o PU. Entre estos materiales se encuentran:
       
       .tarjeta--container.row(data-aos="zoom-in-left")
         .col-md-6.tarjeta.bg10.p-5.col-lg-6
@@ -193,7 +193,7 @@
           .d-flex.align-items-center.mt-3
             h3.bg5.py-2.w-card-text Textiles
       .py-2
-      p Este tipo de material se utiliza en marroquinería ya sea para el desarrollo de piezas exteriores o interiores en los productos. Entre ellos están las lonas, las sedas y forros, así:
+      p Este tipo de material se utiliza en marroquinería, ya sea para el desarrollo de piezas exteriores o interiores en los productos. Entre ellos están las lonas, las sedas y forros, así:
 
       .row.justify-content-center.align-items-center.mb-0.fondo9
         .col-lg-10
@@ -204,7 +204,7 @@
               ul.lista-ul
                 li.mb-0.d-flex
                   i.fas.fa-check-circle
-                  p #[b Lonas:] tela resistente de algodón puro utilizado en marroquinería, dependiendo su uso se agregan refuerzos.
+                  p #[b Lonas:] tela resistente de algodón puro utilizado en marroquinería, dependiendo su uso, se agregan refuerzos.
                 li.d-flex.mb-0
                   i.fas.fa-check-circle
                   p #[b Sedas y forros:]  materiales internos más livianos que la tela base y el material externo, con una textura suave y agradable al tacto como:
@@ -241,7 +241,7 @@
             .row.justify-content-center.align-items-start(titulo="Salpa")
               .col-md-12
                 p Es un material similar a la odena, el cual permite reforzar piezas, dando soporte y consistencia a las formas requeridas en el producto. Esta a diferencia de la odena, se encuentra en el mercado por rollos.
-            .row.justify-content-center.align-items-start(titulo="Cartón kraft")
+            .row.justify-content-center.align-items-start(titulo="Cartón <i>kraft</i>")
               .col-md-12
                 p Es un papel de gran resistencia, que ayuda a dar ciertas formas a los productos, especialmente cuando hay formas curvas y se busca darle un mejor acabado a la pieza.
 
@@ -325,7 +325,7 @@
               br
               br
         
-      .row.justify-content-center.align-items-center(data-aos="fade-left").mb-4
+      .row.justify-content-start.align-items-center(data-aos="fade-left").mb-4
         .col-lg-4.col-md-12.col-12
           p A continuación, se exponen algunos insumos:
 

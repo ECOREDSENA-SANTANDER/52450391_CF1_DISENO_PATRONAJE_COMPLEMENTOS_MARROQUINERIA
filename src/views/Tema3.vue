@@ -201,7 +201,7 @@
 
 
 
-      .row.justify-content-center.align-items-center.mb-0(data-aos="fade-down")
+      .row.justify-content-start.align-items-center.mb-0(data-aos="fade-down")
         .col-lg-9
           p Esta clasificación facilita la identificación de la mejor alternativa según el propósito y funcionalidad esperada del producto.
       .row.justify-content-center.align-items-center.mb-0(data-aos="fade-down")
