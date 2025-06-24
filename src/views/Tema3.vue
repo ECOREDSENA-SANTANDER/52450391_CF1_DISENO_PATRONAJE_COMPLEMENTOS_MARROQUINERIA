@@ -293,7 +293,7 @@
           .row.justify-content-center.align-items-center.mb-4
             .col-lg-11.col-md-11.col-11
               img.img-a.img-t.mt-4(src='@/assets/curso/temas/Tema3/descarga.svg', alt="tema 5")
-              h4.text-center.mt-4 Variación del vestido
+              h4.text-center.mt-4 Variación del vestidossssss
               p.mb-3.my-3 Consulte el anexo “Variación del vestido”. Leer de la página 59 a 62.
               .row.justify-content-center.align-items-center
                 .col-sm-auto
