@@ -286,20 +286,7 @@
               a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo1_ficha_tecnica_del_producto_.pdf')" target="_blank")  
                 span Descargar
                 i.fas.fa-file-arrow-down
-      
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12.col-md-12.col-12.mb-4
-        .fondolink
-          .row.justify-content-center.align-items-center.mb-4
-            .col-lg-11.col-md-11.col-11
-              img.img-a.img-t.mt-4(src='@/assets/curso/temas/Tema3/descarga.svg', alt="tema 5")
-              h4.text-center.mt-4 Variación del vestidossssss
-              p.mb-3.my-3 Consulte el anexo “Variación del vestido”. Leer de la página 59 a 62.
-              .row.justify-content-center.align-items-center
-                .col-sm-auto
-                  a.boton.color-acento-botones.my-4(:href="obtenerLink('/downloads/Anexo1_ficha_tecnica_del_producto_.pdf')" target="_blank")
-                    span Descargar
-                    i.fas.fa-file-download
+    
       
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
