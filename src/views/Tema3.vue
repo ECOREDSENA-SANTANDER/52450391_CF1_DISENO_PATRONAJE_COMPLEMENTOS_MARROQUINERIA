@@ -283,7 +283,7 @@
               p  A continuación, puede descargar el anexo que contiene el formato de la ficha técnica del producto. 
               h4.mb-1.cafe Ficha técnica del producto  
             .col-sm-auto.col-lg-2
-              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo1_ficha_tecnica_del_producto.pdf')" target="_blank")  
+              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo1_ficha_tecnica_del_producto_.pdf')" target="_blank")  
                 span Descargar
                 i.fas.fa-file-arrow-down
       
@@ -297,7 +297,7 @@
               p.mb-3.my-3 Consulte el anexo “Variación del vestido”. Leer de la página 59 a 62.
               .row.justify-content-center.align-items-center
                 .col-sm-auto
-                  a.boton.color-acento-botones.my-4(:href="obtenerLink('/downloads/Anexo1_ficha_tecnica_del_producto.pdf')" target="_blank")
+                  a.boton.color-acento-botones.my-4(:href="obtenerLink('/downloads/Anexo1_ficha_tecnica_del_producto_.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
       
