@@ -283,7 +283,7 @@
               p  A continuación, puede descargar el anexo que contiene el formato de la ficha técnica del producto. 
               h4.mb-1.cafe Ficha técnica del producto  
             .col-sm-auto.col-lg-2
-              a.boton.color-acento-botones.texto-blanco(:href="('/downloads/Anexo1_Ficha_tecnica_del_producto.pdf')" target="_blank")
+              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo1_Ficha_tecnica_del_producto.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-arrow-down
 
